@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "Q01",
+    "query": "Voltaren có những chống chỉ định nào?",
+    "answerable": true,
+    "expected_drug": "Voltaren 75mg/3ml Novartis",
+    "expected_sections": [
+      "Chống chỉ định"
+    ],
+    "answer": "Theo thông tin trong mục \"Chống chỉ định\" của thuốc Voltaren 75mg/3ml Novartis, thuốc chống chỉ định đối với các trường hợp:\n\n- Loét dạ dày.\n- Quá mẫn cảm với hoạt chất.\n- Bệnh nhân đã biết bị hen phế quản, nổi mề đay, viêm mũi cấp khi dùng acid acetylsalicylic hoặc các chất ức chế tổng hợp prostaglandin khác.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Chống chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nLoét dạ dày, quá mẫn cảm với hoạt chất. Giống như với tất cả các thuốc kháng viêm không steroid khác, chống chỉ định cho bệnh nhân đã biết là bị hen phế quản, nổi mề đay, viêm mũi cấp khi dùng acid acetylsalicylic hoặc các chất ức chế tổng hợp prostaglandine khác.\n\n[Document 2]\nTên thuốc: Vastarel MR 35mg\nSection: Chống chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-21811/vastarel-mr-35mg.aspx\nNội dung:\nQuá mẫn với thành phần thuốc, suy tim, trụy mạch.",
+    "sources": [
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Chống chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Vastarel MR 35mg",
+        "section": "Chống chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-21811/vastarel-mr-35mg.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 2,
+    "elapsed_seconds": 8.877,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": "",
+    "model": "gemini-3.6-flash",
+    "reused_from_legacy_results": true
+  },
+  {
+    "id": "Q02",
+    "query": "Những tác dụng không mong muốn nào được ghi nhận với Voltaren?",
+    "answerable": true,
+    "expected_drug": "Voltaren 75mg/3ml Novartis",
+    "expected_sections": [
+      "Tác dụng ngoài ý muốn"
+    ],
+    "answer": "Các tác dụng ngoài ý muốn được ghi nhận với thuốc **Voltaren 75mg/3ml Novartis** bao gồm:\n\n* **Đường tiêu hóa:**\n  * *Đôi khi:* Đau thượng vị, các rối loạn tiêu hóa như nôn, mửa, tiêu chảy, đau bụng, khó tiêu, đầy hơi, chán ăn.\n  * *Hiếm:* Xuất huyết tiêu hóa, nôn ra máu, tiêu ra máu, loét đường tiêu hóa với xuất huyết hay thủng, tiêu chảy ra máu.\n  * *Trường hợp ngoại lệ:* Bệnh ở bụng dưới (viêm kết tràng xuất huyết không chuyên biệt, cơn kịch phát viêm loét kết tràng hay bệnh Crohn), viêm miệng aphtơ, viêm lưỡi, sang thương ở thực quản, táo bón, viêm ruột dạng biểu đồ, viêm tụy.\n\n* **Hệ thần kinh trung ương (và ngoại biên):**\n  * *Đôi khi:* Nhức đầu, choáng váng, chóng mặt.\n  * *Hiếm:* Mệt mỏi.\n  * *Trường hợp ngoại lệ:* Rối loạn cảm giác kể cả dị cảm, rối loạn trí nhớ, mất định hướng, rối loạn thị giác (giảm thị lực, song thị), giảm thính lực, ù tai, mất ngủ, dễ bị kích thích, co giật, trầm cảm, lo âu, ác mộng, run rẩy, phản ứng tâm thần, rối loạn vị giác.\n\n* **Da:**\n  * *Đôi khi:* Phát ban da.\n  * *Hiếm:* Mề đay.\n  * *Trường hợp ngoại lệ:* Phát ban có bọng nước, chàm, hồng ban đa dạng, hội chứng Stevens-Johnson, hội chứng Lyell (chứng đỏ da bóng tróc biểu bì), đỏ da (viêm da tróc mảnh), rụng tóc, phản ứng cảm quang, ban xuất huyết (kể cả ban xuất huyết do dị ứng).\n\n* **Thận:**\n  * *Trường hợp ngoại lệ:* Suy thận cấp, tiểu ra máu, protein niệu, viêm thận kẽ, hội chứng thận hư, hoại tử nhú thận.\n\n* **Gan:**\n  * *Hiếm:* Viêm gan có hoặc không có vàng da (có thể xảy ra đột ngột trong một vài trường hợp).\n  * *Trường hợp ngoại lệ:* Tăng transaminase trong huyết thanh (SGOT, SGPT).\n\n* **Máu:**\n  * *Trường hợp ngoại lệ:* Giảm tiểu cầu, giảm bạch cầu, mất bạch cầu hạt, thiếu máu tán huyết, thiếu máu bất sản.\n\n* **Quá mẫn cảm:**\n  * *Hiếm:* Phản ứng quá mẫn cảm như hen suyễn, phản ứng phản vệ/giống phản vệ, kể cả hạ huyết áp.\n  * *Trường hợp ngoại lệ:* Viêm mạch, viêm phổi.\n\n* **Hệ tim mạch:**\n  * *Trường hợp ngoại lệ:* Đánh trống ngực, đau ngực, cao huyết áp, suy tim.\n\n* **Chỉ riêng thuốc tiêm:**\n  * *Hiếm:* Đau và cứng vùng tiêm bắp.\n  * *Trường hợp ngoại lệ:* Áp xe hoặc hoại tử tại vùng tiêm bắp.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Tác dụng ngoài ý muốn\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nĐường tiêu hóa Đôi khi: Đau thượng vị, có những rối loạn tiêu hóa như nôn, mửa, tiêu chảy, đau bụng, khó tiêu, đầy hơi, chán ăn Hiếm: Xuất huyết tiêu hóa, nôn ra máu, tiêu ra máu, lo t đường tiêu hóa với xuất huyết hay thủng, tiêu chảy ra máu Trường hợp ngoại lệ: Bệnh ở bụng dưới như viêm kết tràng xuất huyết không chuyên biệt, cơn kịch phát viêm loét kết tràng hay bệnh Crohn, viêm miệng aphtơ, viêm lưỡi, sang thương ở thực quản, táo bón, viêm ruột dạng biểu đồ, viêm tụy Hệ thần kinh trung ương (và ngoại biên) Đôi khi: Nhức đầu, choáng váng, chóng mặt Hiếm: Mệt mỏi Trường hợp ngoại lệ: Rối loạn cảm giác kể cả dị cảm, rối loạn trí nhớ, mất định hướng, rối loạn thị giác (giảm thị lực, song thị), giảm thính lực, ù tai, mất ngủ, dễ bị kích thích, co giật, trầm cảm, lo âu, ác mộng, run rẩy, phản ứng tâm thần, rối loạn vị giác Da Đôi khi: Phát ban da Hiếm: Mề đay\n\n[Document 2]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Tác dụng ngoài ý muốn\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nTrường hợp ngoại lệ: Phát ban có bọng nước, chàm, hồng ban đa dạng, hội chứng StevensJohnson, hội chứng Lyell, (chứng đỏ da bóng tróc biểu bì), đỏ da (viêm da tróc mảnh), rụng tóc, phản ứng cảm quang, ban xuất huyết, kể cả ban xuất huyết do dị ứng Thận Trường hợp ngoại lệ: Suy thận cấp, tiểu ra máu, protein niệu, viêm thận kẽ, hội chứng thận hư, hoại tử nhú thận Gan Trường hợp ngoại lệ: Tăng transaminase trong huyết thanh (SGOT, SGPT) Hiếm: Viêm gan với vàng da hay không, có thể xảy ra đột ngột trong một vài trường hợp Máu Trường hợp ngoại lệ: Giảm tiểu cầu, giảm bạch cầu, mất bạch cầu hạt, thiếu máu tán huyết, thiếu máu bất sản Quá mẫn cảm Hiếm: Phản ứng quá mẫn cảm như hen suyễn, phản ứng phản vệ/giống phản vệ, kể cả hạ huyết áp Trường hợp ngoại lệ: Viêm mạch, viêm phổi Hệ tim mạch Trường hợp ngoại lệ: Đánh trống ngực, đau ngực, cao huyết áp, suy tim Chỉ riêng thuốc tiêm : Hiếm: Đau và cứng vùng tiêm bắp Trường hợp ngoại lệ: Áp xe hoặc hoại tử tại vùng tiêm bắp.\n\n[Document 3]\nTên thuốc: Utrogestan 100mg dạng viên nang mềm\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-49098/utrogestan-100mg.aspx\nNội dung:\nMặc dù có thể có kích ứng tại chỗ (do có chứa lecithin đậu nành), không thấy có bất kỳ sự bất dung nạp tại chỗ nào (bỏng, ngứa hay ra chất nhờn) trong các nghiên cứu lâm sàng khác nhau. Khi dùng đường uống, các tác dụng không mong muốn sau được ghi nhận: Thường gặp: Thay đổi chu kỳ kinh nguyệt, mất kinh, chảy máu giữa chu kỳ kinh, nhức đầu. Ít gặp: Buồn ngủ, chóng mặt thoáng qua, chứng vàng da ứ mật, ngứa, rối loạn tiêụ hóa. Buồn ngủ và/hoặc chóng mặt thoáng qua được quan sát thấy ở bệnh nhân dùng kết hợp với estrogen liều thấp. Các tác dụng này sẽ mất đi khi giảm liều Utrogestan hoặc tăng liều estrogen mà không ảnh hưởng đến kết quả điều trị. Chu kỳ kinh nguyêt bị rút ngắn và hoặc chảy máu giữa chu kỳ kinh có thể xảy ra nếu điều trị được bắt đầu quá sớm, đăc biệt trước ngày 15 của chu kỳ. Thay đổi chu kỳ kinh nguyệt, mất kinh hoặc chảy máu giữa kỳ kinh đã được ghi nhận liên quan đến sử dụng progestin. Thông báo cho bác sỹ các tác dụng không mong muốn gặp phải khi sử dụng thuốc.\n\n[Document 4]\nTên thuốc: Utrogestan 200mg\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29738/utrogestan-200mg.aspx\nNội dung:\nMặc dù có thể có kích ứng tại chỗ (do có chứa lecithin đậu nành), không thấy có bất kỳ sự bất dung nạp tại chỗ nào (bỏng, ngứa hay ra chất nhờn) trong các nghiên cứu lâm sàng khác nhau. Khi dùng đường uống, các tác dụng không mong muốn sau được ghi nhận: Thường gặp: Thay đổi chu kỳ kinh nguyệt, mất kinh, chảy máu giữa chu kỳ kinh, nhức đầu. Ít gặp: Buồn ngủ, chóng mặt thoáng qua, chứng vàng da ứ mật, ngứa, rối loạn tiêụ hóa. Buồn ngủ và/hoặc chóng mặt thoáng qua được quan sát thấy ở bệnh nhân dùng kết hợp với estrogen liều thấp. Các tác dụng này sẽ mất đi khi giảm liều Utrogestan hoặc tăng liều estrogen mà không ảnh hưởng đến kết quả điều trị. Chu kỳ kinh nguyêt bị rút ngắn và hoặc chảy máu giữa chu kỳ kinh có thể xảy ra nếu điều trị được bắt đầu quá sớm, đăc biệt trước ngày 15 của chu kỳ. Thay đổi chu kỳ kinh nguyệt, mất kinh hoặc chảy máu giữa kỳ kinh đã được ghi nhận liên quan đến sử dụng progestin. Thông báo cho bác sỹ các tác dụng không mong muốn gặp phải khi sử dụng thuốc.\n\n[Document 5]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Chống chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nLoét dạ dày, quá mẫn cảm với hoạt chất. Giống như với tất cả các thuốc kháng viêm không steroid khác, chống chỉ định cho bệnh nhân đã biết là bị hen phế quản, nổi mề đay, viêm mũi cấp khi dùng acid acetylsalicylic hoặc các chất ức chế tổng hợp prostaglandine khác.",
+    "sources": [
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Tác dụng ngoài ý muốn",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Tác dụng ngoài ý muốn",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Utrogestan 100mg dạng viên nang mềm",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-49098/utrogestan-100mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Utrogestan 200mg",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29738/utrogestan-200mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Chống chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 20.136,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": "",
+    "model": "gemini-3.6-flash",
+    "reused_from_legacy_results": true
+  },
+  {
+    "id": "Q03",
+    "query": "Tài liệu ghi liều lượng và cách dùng Voltaren như thế nào?",
+    "answerable": true,
+    "expected_drug": "Voltaren 75mg/3ml Novartis",
+    "expected_sections": [
+      "Liều lượng & Cách dùng"
+    ],
+    "answer": "Không tìm thấy thông tin này trong tài liệu được cung cấp.",
+    "refusal_detected": true,
+    "context": "[Document 1]\nTên thuốc: Vastarel MR 35mg\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-21811/vastarel-mr-35mg.aspx\nNội dung:\nUống vào đầu các bữa ăn:\n\n- Khoa mắt và tai: Ngày 40 mg - 60 mg viên, chia 2 - 3 lần uống.\n\n- Suy mạch vành, đau thắt ngực: Ngày 20 mg x 3 lần, sau có thể giảm đến 20 mg x 2 lần/ngày.\n\n[Document 2]\nTên thuốc: Tavanic dạng viên nén bao phim\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-13992/tavanic.aspx\nNội dung:\nLiều dùng cho người lớn: - Viêm xoang cấp 500 mg/ngày x 10 - 14 ngày. - Ðợt kịch phát viêm phế quản mạn 250 - 500 mg/ngày x 7 - 10 ngày. - Viêm phổi mắc phải trong cộng đồng 500 mg, ngày 1 - 2 lần x 7 - 14 ngày. - Nhiễm khuẩn đường tiểu có biến chứng kể cả viêm thận - bể thận: 250 mg/ngày x 7 - 10 ngày. - Nhiễm khuẩn da & mô mềm 500 mg, ngày 1 - 2 lần x 7 - 14 ngày. Suy thận (ClCr < 50mL/phút): giảm liều.",
+    "sources": [
+      {
+        "drug_name": "Vastarel MR 35mg",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-21811/vastarel-mr-35mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Tavanic dạng viên nén bao phim",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-13992/tavanic.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 2,
+    "elapsed_seconds": 10.133,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": "",
+    "model": "gemini-3.6-flash",
+    "reused_from_legacy_results": true
+  },
+  {
+    "id": "Q04",
+    "query": "Voltaren được chỉ định trong những trường hợp nào?",
+    "answerable": true,
+    "expected_drug": "Voltaren 75mg/3ml Novartis",
+    "expected_sections": [
+      "Chỉ định"
+    ],
+    "answer": "Dựa trên thông tin từ section **Chỉ định** và **Công dụng** của thuốc Voltaren 75mg/3ml Novartis trong tài liệu được cung cấp, thuốc được chỉ định trong các trường hợp sau:\n\n**1. Điều trị dài hạn các triệu chứng trong:**\n* Viêm thấp khớp mạn tính (nhất là viêm đa khớp dạng thấp, viêm xương khớp, viêm cứng khớp cột sống) hoặc trong các hội chứng liên kết như hội chứng Fiessiger-Leroy-Reiter và thấp khớp trong bệnh vẩy nến.\n* Bệnh cứng khớp gây đau và tàn phế / mất khả năng làm việc.\n\n**2. Điều trị triệu chứng ngắn hạn các cơn cấp tính của:**\n* Bệnh thấp khớp và tổn thương cấp tính sau chấn thương của hệ vận động (như viêm quanh khớp vai cẳng tay, viêm gân, viêm bao hoạt dịch, viêm màng hoạt dịch, viêm gân bao hoạt dịch).\n* Viêm khớp vi tinh thể, bệnh khớp.\n* Đau thắt lưng, đau rễ thần kinh nặng, hội chứng đau cột sống, bệnh thấp ngoài khớp.\n* Cơn thống phong cấp tính.\n* Cơn migrain.\n* Cơn đau quặn thận, quặn mật.\n* Giảm đau sau phẫu thuật hoặc chấn thương (bao gồm phẫu thuật nhỏ, phẫu thuật nha khoa/miệng, chỉnh hình, cắt amydan).\n\n**3. Các trường hợp khác:**\n* Các tình trạng đau và/hoặc viêm trong phụ khoa (như đau bụng kinh, viêm phần phụ).\n* Dùng làm thuốc hỗ trợ trong bệnh viêm nhiễm tai, mũi, họng (như viêm họng amiđan, viêm tai).\n\n*Lưu ý từ tài liệu:* Sốt đơn thuần không phải là một chỉ định điều trị.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nGiảm đau sau phẫu thuật hoặc chấn thương như phẫu thuật nha khoa hay chỉnh hình. Các tình trạng đau và/hoặc viêm trong phụ khoa, như đau bụng kinh hay viêm phần phụ. Là thuốc hỗ trợ trong bệnh viêm nhiễm tai, mũi, họng, như viêm họng amiđan, viêm tai. Theo nguyên tắc trị liệu chung, nên áp dụng những biện pháp thích hợp để điều trị bệnh gốc. Sốt đơn thuần không phải là một chỉ định điều trị.\n\n[Document 2]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\n**_Điều trị dài hạn các triệu chứng trong_** Viêm thấp khớp mạn tính, nhất là viêm đa khớp dạng thấp, viêm xương khớp và viêm cứng khớp cột sống hay trong những hội chứng liên kết như hội chứng Fiessiger-Leroy-Reiter và thấp khớp trong bệnh vẩy nến. Bệnh cứng khớp gây đau và tàn phế. **_Điều trị triệu chứng ngắn hạn các cơn cấp tính của_** Bệnh thấp khớp và tổn thương cấp tính sau chấn thương của hệ vận động như viêm quanh khớp vai cẳng tay, viêm gân, viêm bao hoạt dịch, viêm màng hoạt dịch, viêm gân bao hoạt dịch. Viêm khớp vi tinh thể. Bệnh khớp. Đau thắt lưng, đau rễ thần kinh nặng. Cơn thống phong cấp tính. Hội chứng đau cột sống. Bệnh thấp ngoài khớp. Giảm đau sau mổ. Cơn migrain. Cơn đau quặn thận, quặn mật.\n\n[Document 3]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Công dụng Voltaren 75mg/3ml Novartis\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\n_Điều trị dài hạn các triệu chứng trong:_\n\n- Viêm thấp khớp mạn tính, nhất là viêm đa khớp dạng thấp và viêm cứng khớp cột sống hay trong những hội chứng liên kết như hội chứng Fiessiger-leroy-reiter và thấp khớp trong bệnh vẩy nến.\n\n- Bệnh cứng khớp gây đau và mất khả năng làm việc.\n\n_Điều trị triệu chứng ngắn hạn các cơn cấp tính của:_\n\n- Bệnh thấp khớp và tổn thương cấp tính sau chấn thương của hệ vận động như viêm quanh khớp vai cẳng tay, viêm gân, viêm bao hoạt dịch, viêm màng hoạt dịch, viêm gân bao hoạt dịch.\n\n- Viêm khớp vi tinh thể\n\n- Đau thắt lưng, đau rễ thần kinh nặng\n\n- Cơn thống phong cấp tính.\n\n-Cơn đau quặn thận, quặn mật. Ngoài ra còn được chỉ định trong giảm đau do phẫu thuật nhỏ, phẫu thuật miệng, cắt amydan, chấn thương, đau bụng kinh.\n\nLà thuốc hỗ trợ trong bệnh viêm nhiễm tai, mũi, họng.\n\n[Document 4]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Chống chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nLoét dạ dày, quá mẫn cảm với hoạt chất. Giống như với tất cả các thuốc kháng viêm không steroid khác, chống chỉ định cho bệnh nhân đã biết là bị hen phế quản, nổi mề đay, viêm mũi cấp khi dùng acid acetylsalicylic hoặc các chất ức chế tổng hợp prostaglandine khác.\n\n[Document 5]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Tác dụng ngoài ý muốn\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nTrường hợp ngoại lệ: Phát ban có bọng nước, chàm, hồng ban đa dạng, hội chứng StevensJohnson, hội chứng Lyell, (chứng đỏ da bóng tróc biểu bì), đỏ da (viêm da tróc mảnh), rụng tóc, phản ứng cảm quang, ban xuất huyết, kể cả ban xuất huyết do dị ứng Thận Trường hợp ngoại lệ: Suy thận cấp, tiểu ra máu, protein niệu, viêm thận kẽ, hội chứng thận hư, hoại tử nhú thận Gan Trường hợp ngoại lệ: Tăng transaminase trong huyết thanh (SGOT, SGPT) Hiếm: Viêm gan với vàng da hay không, có thể xảy ra đột ngột trong một vài trường hợp Máu Trường hợp ngoại lệ: Giảm tiểu cầu, giảm bạch cầu, mất bạch cầu hạt, thiếu máu tán huyết, thiếu máu bất sản Quá mẫn cảm Hiếm: Phản ứng quá mẫn cảm như hen suyễn, phản ứng phản vệ/giống phản vệ, kể cả hạ huyết áp Trường hợp ngoại lệ: Viêm mạch, viêm phổi Hệ tim mạch Trường hợp ngoại lệ: Đánh trống ngực, đau ngực, cao huyết áp, suy tim Chỉ riêng thuốc tiêm : Hiếm: Đau và cứng vùng tiêm bắp Trường hợp ngoại lệ: Áp xe hoặc hoại tử tại vùng tiêm bắp.",
+    "sources": [
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Công dụng Voltaren 75mg/3ml Novartis",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Chống chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Tác dụng ngoài ý muốn",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 1
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 18.614,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": "",
+    "model": "gemini-3.6-flash",
+    "reused_from_legacy_results": true
+  },
+  {
+    "id": "Q05",
+    "query": "Hoạt chất và hàm lượng của Voltaren 75mg/3ml là gì?",
+    "answerable": true,
+    "expected_drug": "Voltaren 75mg/3ml Novartis",
+    "expected_sections": [
+      "Thành phần hoạt chất"
+    ],
+    "answer": "Dựa trên tài liệu được cung cấp:\n\n- Theo section **Thành phần hoạt chất**: Hoạt chất là **Diclofenac** với hàm lượng **75mg/3ml**.\n- Theo section **Thông tin nhanh**: Thành phần là **Diclofenac sodium 75mg/3ml**.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Thành phần hoạt chất\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\n1 hoạt chất\n\n| Tên hoạt chất | Hàm lượng |\n| --- | --- |\n| DiclofenacChính | 75mg/3ml |\n\n[Document 2]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Thông tin về hoạt chất: Diclofenac\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nThuốc này chứa hoạt chất **Diclofenac**.\nĐể biết thêm thông tin chi tiết về cơ chế tác dụng, dược lực học, dược động học của hoạt chất này, vui lòng xem:\n\nXem chi tiết hoạt chất Diclofenac\n\n[Document 3]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Thông tin nhanh\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nSố đăng ký\n\nVN-0967-06\n\nDạng bào chế\n\nDung dịch thuốc tiêm\n\nLượt xem\n\n57,774\n\nDanh mục\n\nThuốc giảm đau, hạ sốt, Nhóm chống viêm không Steroid, Thuốc điều trị Gút và các bệnh xương khớp\n\nThành phần\n\nDiclofenac sodium 75mg/3ml\n\nQuy cách đóng góiHộp 10 vỉ x 5 ống 3ml Hộp 1 vỉ x 5 ống 3ml\n\n[Document 4]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Liều lượng & Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nĐiều trị ngộ độc cấp thuốc kháng viêm không steroid chủ yếu bao gồm các biện pháp hỗ trợ và điều trị triệu chứng. Quá liều diclofenac không gây ra các dấu hiệu lâm sàng điển hình. Các biện pháp điều trị khi quá liều bao gồm : loại chất thuốc nuốt vào càng sớm càng tốt bằng cách rửa dạ dày và dùng than hoạt tính. Các triệu chứng như hạ huyết áp, suy thận, co giật, kích ứng dạ dày-ruột, suy hô hấp có thể xử lý bằng các biện pháp hỗ trợ và điều trị triệu chứng. Dường như không cần thiết phải dùng đến các biện pháp điều trị chuyên biệt như tăng cường bài niệu, thẩm tách hay truyền máu để loại thuốc kháng viêm không steroid do chúng liên kết với protein cao và chuyển hóa mạnh.\n\n[Document 5]\nTên thuốc: Voltaren 75mg/3ml Novartis\nSection: Liều lượng & Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx\nNội dung:\nCần phải tính toán liều một cách thận trọng, tùy theo nhu cầu và đáp ứng của từng cá nhân và cần phải dùng liều thấp nhất có tác dụng. Trong trị liệu dài ngày, kết quả phần lớn xuất hiện trong 6 tháng đầu và thường được duy trì sau đó. **- Viêm đốt sống cứng khớp:** Uống 100 – 125mg/ngày, chia làm nhiều lần (25mg, bốn lần trong ngày, thêm một lần 25mg vào lúc đi ngủ nếu cần). **- Thoái hóa (hư) khớp:** Uống 100 – 150mg/ngày, chia làm nhiều lần (50mg, hai đến ba lần một ngày, hoặc 75mg, ngày hai lần). Ðiều trị dài ngày: 100mg/ngày; không nên dùng liều cao hơn. **- Hư khớp:** 100mg/ngày, uống làm một lần vào buổi tối trước lúc đi ngủ hoặc uống 50mg, ngày hai lần. **- Viêm khớp dạng thấp:** Viên giải phóng kéo dài natri diclofenac, viên giải phóng nhanh kali diclofenac hay viên bao tan ở ruột: 100 – 200mg/ngày uống làm nhiều lần (50mg, ngày ba hoặc bốn lần, hoặc 75mg, ngày hai lần). Tổng liều tối đa 200mg/ngày.",
+    "sources": [
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Thành phần hoạt chất",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Thông tin về hoạt chất: Diclofenac",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Thông tin nhanh",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Liều lượng & Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 2
+      },
+      {
+        "drug_name": "Voltaren 75mg/3ml Novartis",
+        "section": "Liều lượng & Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-10030/voltaren.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 11.91,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": "",
+    "model": "gemini-3.6-flash",
+    "reused_from_legacy_results": true
+  },
+  {
+    "id": "Q06",
+    "query": "Beatil 4mg/5mg có những chống chỉ định nào?",
+    "answerable": true,
+    "expected_drug": "Beatil 4mg/5mg",
+    "expected_sections": [
+      "Chống chỉ định"
+    ],
+    "answer": "Theo tài liệu được cung cấp, chống chỉ định của thuốc Beatil 4mg/5mg bao gồm:\n\n**Liên quan đến perindopril:**\n- Quá mẫn cảm với perindopril hay với bất cứ thuốc ức chế ACE khác.\n- Tiền sử phù mạch khi đã dùng thuốc ức chế ACE trước đây.\n- Phù mạch do di truyền hoặc tự phát.\n- Các quý 2 và 3 của thai kỳ.\n\n**Liên quan đến amlodipine:**\n- Hạ huyết áp mạnh.\n- Quá mẫn cảm với amlodipine hoặc với các dihydropyridine khác.\n- Trạng thái sốc, bao gồm cả sốc tim.\n- Tắc nghẽn dòng chảy từ tâm thất trái (ví dụ hẹp nhiều động mạch chủ).\n- Đau thắt ngực không ổn định (loại trừ đau thắt ngực Prinzmetal).\n- Suy tim sau nhồi máu cơ tim cấp (trong vòng 28 ngày đầu).",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Beatil 4mg/5mg\nSection: Chống chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\nLiên quan đến perindopril:\n- Quá mẫn cảm với perindopril hay với bất cứ thuốc ức chế ACE khác.\n- Tiền sử phù mạch khi đã dùng thuốc ức chế ACE trước đây.\n- Phù mạch do di truyền hoặc tự phát.\n- Các quý 2 và 3 của thai kỳ.\nLiên quan đến amlodipine:\n- Hạ huyết áp mạnh.\n- Quá mẫn cảm với amlodipine hoặc với các dihydropyridine khác.\n- Trạng thái sốc, bao gồm cả sốc tim.\n- Tắc nghẽn dòng chảy từ tâm thất trái (ví dụ hẹp nhiều động mạch chủ).\n- Đau thắt ngực không ổn định (loại trừ đau thắt ngực Prinzmetal).\n- Suy tim sau nhồi máu cơ tim cấp (trong vòng 28 ngày đầu).",
+    "sources": [
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Chống chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 1,
+    "elapsed_seconds": 8.727,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": "",
+    "model": "gemini-3.6-flash",
+    "reused_from_legacy_results": true
+  },
+  {
+    "id": "Q07",
+    "query": "Các tác dụng phụ của Beatil 4mg/5mg là gì?",
+    "answerable": true,
+    "expected_drug": "Beatil 4mg/5mg",
+    "expected_sections": [
+      "Tác dụng phụ"
+    ],
+    "answer": "Dựa trên tài liệu được cung cấp, các tác dụng phụ của Beatil 4mg/5mg bao gồm:\n\n**Các tác dụng phụ có thể gặp:**\n* Sưng phù mặt, môi, miệng, lưỡi hoặc hầu, khó thở.\n* Choáng váng hoặc mệt nặng.\n* Nhịp tim nhanh bất thường và không đều.\n\n**Thường gặp (≥ 1/100):**\n* Nhức đầu, choáng váng, chóng mặt, cảm giác kiến bò và kim châm, buồn ngủ, rối loạn thị giác, ù tai.\n* Đánh trống ngực (nhịp tim quá nhanh), bừng đỏ (cảm giác nóng ở mặt), chóng mặt do huyết áp hạ.\n* Ho, thở ngắn.\n* Buồn nôn, nôn, đau bụng, rối loạn vị giác, khó tiêu hóa, tiêu chảy, táo bón.\n* Phản ứng dị ứng (như phát ban da, ngứa), co rút cơ, cảm giác mệt mỏi, phù (sưng nề chân hoặc mắt cá chân).\n\n**Ít gặp (< 1/1000):**\n* Tính khí thất thường, rối loạn giấc ngủ, run, ngất (tạm mất ý thức), mất cảm giác đau.\n* Viêm mũi (ngạt mũi hay chảy nước mũi), thay đổi thói quen đại tiện, rụng tóc, da có mảng đỏ hoặc mất màu.\n* Đau lưng, cơ hoặc khớp, đau ngực.\n* Tăng nhu cầu tiểu tiện (đặc biệt về đêm), khó ở, co thắt phế quản (cảm giác co thắt ngực, thở ngắn, thở khò khè), khô miệng.\n* Phù mạch (triệu chứng thở khò khè, sưng nề ở mặt và lưỡi), suy thận, liệt dương, tăng đổ mồ hôi, vú to ở đàn ông, tăng hoặc giảm thể trọng.\n\n**Rất hiếm gặp (< 1/10000):**\n* Lú lẫn.\n* Rối loạn tim mạch (nhịp tim không đều, đau thắt ngực, cơn đau tim và đột quỵ).\n* Viêm phổi tăng bạch cầu ưa eosin.\n* Ban đỏ đa dạng (phát ban da thường khởi phát với triệu chứng có vết đỏ, ngứa ở mặt, chân, tay).\n* Rối loạn về máu, tụy, dạ dày, hoặc gan.\n* Bệnh thần kinh ngoại biên (mất cảm giác, đau, khó có khả năng kiểm soát cơ), tăng trương lực (tăng sự căng cơ bất thường), viêm mạch (viêm mạch máu da), phù nề lợi, tăng glucose-máu.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Beatil 4mg/5mg\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\n- Ít gặp ( 1/1000): tính khí thất thường, rối loạn giấc ngủ, run, ngất (tạm mất ý thức), mất cảm giác đau, viêm mũi (ngạt mũi hay chảy nước mũi), thay đổi thói quen đại tiện, rụng tóc, da có mảng đỏ hoặc mất màu, đau lưng, cơ hoặc khớp, đau ngực, tăng nhu cầu tiểu tiện, đặc biệt về đêm, khó ở, co thắt phế quản (cảm giác co thắt ngực, thở ngắn, thở khò khè), khô miệng, phù mạch (triệu chứng thở khò khè, sưng nề ở mặt và lưỡi), suy thận, liệt dương, tăng đổ mồ hôi, vú to ở đàn ông, tăng hoặc giảm thể trọng.\n\n[Document 2]\nTên thuốc: Beatil 4mg/5mg\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\nCó thể gặp các tác dụng phụ sau: - Sưng phù mặt, môi, miệng, lưỡi hoặc hầu, khó thở - Choáng váng hoặc mệt nặng - Nhịp tim nhanh bất thường và không đều. Các tác dụng phụ khác gồm: - Thường gặp ( 1/100): nhức đầu, choáng váng, chóng mặt, cảm giác kiến bò và kim châm, buồn ngủ, rối loạn thị giác, ù tai, đánh trống ngực (nhịp tim quá nhanh), bừng đỏ (cảm giác nóng ở mặt), chóng mặt do huyết áp hạ, ho, thở ngắn, buồn nôn, nôn, đau bụng, rối loạn vị giác, khó tiêu hóa, tiêu chảy, táo bón, phản ứng dị ứng (như phát ban da, ngứa), co rút cơ, cảm giác mệt mỏi, phù (sưng nề chân hoặc mắt cá chân).\n\n[Document 3]\nTên thuốc: Beatil 4mg/5mg\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\n- Rất hiếm gặp (< 1/10000): lú lẫn, rối loạn tim mạch (nhịp tim không đều, đau thắt ngực, cơn đau tim và đột quỵ), viêm phổi tăng bạch cầu ưa eosin (loại viêm phổi hiếm gặp), ban đỏ đa dạng (phát ban da thường khởi phát với triệu chứng có vết đỏ, ngứa ở mặt, chân, tay), rối loạn về máu, tụy, dạ dày, hoặc gan, bệnh thần kinh ngoại biên (bệnh làm mất cảm giác, đau, khó có khả năng kiểm soát cơ), tăng trương lực (tăng sự căng cơ bất thường), viêm mạch (viêm mạch máu da), phù nề lợi, tăng glucose-máu.",
+    "sources": [
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 2
+      }
+    ],
+    "num_results": 3,
+    "elapsed_seconds": 12.312,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": "",
+    "model": "gemini-3.6-flash",
+    "reused_from_legacy_results": true
+  },
+  {
+    "id": "Q08",
+    "query": "Beatil 4mg/5mg có những tương tác thuốc nào được nêu trong tài liệu?",
+    "answerable": true,
+    "expected_drug": "Beatil 4mg/5mg",
+    "expected_sections": [
+      "Tương tác thuốc"
+    ],
+    "answer": "Theo phần \"Tương tác thuốc\" của Beatil 4mg/5mg trong tài liệu, các tương tác thuốc bao gồm:\n\n**1. Các thuốc không được dùng cùng:**\n- Lithium (chữa cơn hưng cảm và trầm cảm)\n- Estramustine (điều trị ung thư)\n- Thuốc lợi tiểu giữ kali (spironolactone, triamterene), chất bổ sung kali hoặc các muối chứa kali.\n\n**2. Các thuốc cần thận trọng đặc biệt khi dùng cùng:**\n- Thuốc chống cao huyết áp, bao gồm cả thuốc lợi tiểu\n- Thuốc chống viêm không steroid (ví dụ: ibuprofen) để làm giảm đau hoặc liều cao aspirin\n- Thuốc chống đái tháo đường (như insulin)\n- Thuốc chống rối loạn tâm thần như chống trầm cảm, lo âu, tâm thần phân liệt... (ví dụ: thuốc chống trầm cảm 3 vòng, chống loạn thần, chống trầm cảm nhóm imipramine, thuốc an thần kinh)\n- Thuốc ức chế miễn dịch dùng điều trị các rối loạn tự miễn hoặc sau khi phẫu thuật ghép tạng (ví dụ: ciclosporin)\n- Allopurinol (điều trị bệnh gút)\n- Procainamid (điều trị nhịp tim không đều)\n- Thuốc giãn mạch bao gồm nitrat\n\n**3. Các tương tác thuốc khác:**\n- Heparin (thuốc chống đông máu)\n- Ephedrine, noradrenaline hoặc adrenaline (dùng điều trị hạ huyết áp, sốc hoặc cơn hen)\n- Baclofen hoặc dantrolence (truyền)\n- Một số loại kháng sinh như rifamicin\n- Thuốc chống động kinh như carbamazepin, phenobarbital, phenitoin, fosphenytoin, primidone\n- Itraconazole, ketoconazole (dùng điều trị nấm)\n- Thuốc phong bế alpha dùng điều trị phì đại tuyến tiền liệt (như prazosin, alfuzosin, doxazosin, tamsulosin, terazosin)\n- Amifostine (ngăn ngừa hoặc làm thuyên giảm tác dụng phụ do các thuốc khác hoặc do chiếu tia để chữa ung thư)\n- Corticoid (điều trị nhiều trường hợp khác nhau, bao gồm hen nặng và viêm khớp dạng thấp)\n- Các muối vàng (Au), đặc biệt khi dùng đường tĩnh mạch (chữa các triệu chứng viêm khớp dạng thấp).",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Beatil 4mg/5mg\nSection: Tương tác thuốc\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\n- Heparin (thuốc chống đông máu) - Ephedrine, noradrenaline hoặc adrenaline (dùng để điều trị bệnh hạ huyết áp, sốc hoặc cơn hen - Baclofen hoặc dantrolence (truyền) dùng điều trị cứng cơ trong bệnh xơ cứng rải rác, dantrolence còn dùng điều trị sốt cao ác tính trong khi gây mê (triệu chứng bao gồm sốt rất cao và co cứng cơ) - Một số loại kháng sinh như rifamicin - Thuốc chống động kinh như carbamazepin, phenobarbital, phenitoin, fosphenytoin, primidone. - Itraconazole, ketoconazole (dùng điều trị nấm) Thuốc phong bế alpha dùng điều trị phì đại tuyến tiền liệt, như prazosin, alfuzosin, doxazosin, tamsulosin, terazosin - Amifostine (ngăn ngừa hoặc làm thuyên giảm tác dụng phụ do các thuốc khác hoặc do chiếu tia để chữa ung thư) - Corticoid (dùng điều trị nhiều trường hợp khác nhau, bao gồm hen nặng và viêm khớp dạng thấp) - Các muối vàng (Au), đặc biệt khi dùng đường tĩnh mạch (chữa các triệu chứng viêm khớp dạng thấp).\n\n[Document 2]\nTên thuốc: Beatil 4mg/5mg\nSection: Tương tác thuốc\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\nKhông được dùng cùng các thuốc sau:\n- Lithium (dùng để chữa cơn hưng cảm và trầm cảm)\n- Estramustine (dùng để điều trị ung thư)\n- Thuốc lợi tiểu giữ kali (spironolactone, triamterene), chất bổ sung kali hoặc các muối chứa kali. Cần thận trọng đặc biệt khi dùng: - Những thuốc chống cao huyết áp, bao gồm cả thuốc lợi tiểu (tức là dùng làm tăng lượng nước tiểu lọc từ thận) - Thuốc chống viêm không steroid (vd: ibuprofen) để làm giảm đau hoặc liều cao aspirin - Thuốc chống đái tháo đường (như: insulin) - Thuốc chống rối loạn tâm thần như chống trầm cảm, lo âu, tâm thần phân liệt... (vd: thuốc chống trầm cảm 3 vòng, chống loạn thần, chống trầm cảm nhóm imipramine, thuốc an thần kinh) - Thuốc ức chế miễn dịch (thuốc làm giảm cơ chế bảo vệ của cơ thể) dùng điều trị các rối loạn tự miễn hoặc sau khi phẫu thuật ghép tạng (vd: ciclosporin) - Allopurinol (để điều trị bệnh gút) - Procainamid (điều trị nhịp tim không đều) - Thuốc giãn mạch bao gồm nitrat (các chất làm giãn mạch máu)",
+    "sources": [
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Tương tác thuốc",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Tương tác thuốc",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 2,
+    "elapsed_seconds": 22.536,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": "",
+    "model": "gemini-3.6-flash",
+    "reused_from_legacy_results": true
+  },
+  {
+    "id": "Q09",
+    "query": "Tài liệu hướng dẫn liều dùng Beatil 4mg/5mg ra sao?",
+    "answerable": true,
+    "expected_drug": "Beatil 4mg/5mg",
+    "expected_sections": [
+      "Liều lượng - Cách dùng",
+      "Liều dùng Perindopril"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Tài liệu hướng dẫn liều dùng Beatil 4mg/5mg ra sao?",
+    "answer": "Theo tài liệu hướng dẫn, liều dùng và cách dùng thuốc Beatil 4mg/5mg như sau:\n\n* **Cách dùng:** Dùng đường uống, nên uống vào buổi sáng trước bữa ăn.\n* **Liều thông thường:** Uống mỗi ngày 1 viên duy nhất.\n* **Lưu ý khi khởi đầu/điều chỉnh:** Phối hợp liều cố định này không phù hợp cho điều trị khởi đầu. Nếu cần thay đổi liều lượng, có thể cân nhắc sử dụng các phối hợp theo tỷ lệ khác.\n\n**Đối tượng đặc biệt:**\n* **Bệnh nhân suy thận và người cao tuổi:** \n  * Dùng được cho bệnh nhân có độ thanh lọc creatinin ($\\text{Cl}_{cr}$) $\\ge$ 60 ml/phút.\n  * Không thích hợp cho bệnh nhân có $\\text{Cl}_{cr}$ < 60 ml/phút (khuyến cáo chỉnh liều từng thành phần riêng lẻ). Cần kiểm tra thường xuyên creatinin và kali.\n* **Bệnh nhân suy gan:** Chưa xác định được liều lượng, cần dùng thận trọng.\n* **Trẻ em và thanh niên:** Không nên dùng vì chưa xác định được hiệu lực và độ an toàn.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Beatil 4mg/5mg\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\nDùng đường uống. Uống mỗi ngày một viên duy nhất, nên dùng vào buổi sáng trước bữa ăn. Sự phối hợp liều lượng cố định này không phù hợp cho điều trị khởi đầu. Nếu cần thay đổi liều lượng, liều có thể thay đổi và sử dụng các phối hợp theo tỷ lệ khác có thể được cân nhắc. _Bệnh nhân có bệnh thận và bệnh nhân cao tuổi_ Sự đào thải perindoprilat sẽ giảm ở người cao tuổi và người có bệnh thận. Vì vậy, việc theo dõi y tế định kỳ sẽ bao gồm kiểm tra thường xuyên creatinin và kali. Có thể dùng được cho bệnh nhân có độ thanh lọc creatinin (Clcr) # 60ml/phút, và không thích hợp khi dùng cho bệnh nhân có độ thanh lọc creatinin (Clcr) < 60ml/phút. Với những bệnh nhân này, khuyến cáo nên chỉnh liều theo từng cá thể với mỗi thành phần của hợp chất. Những thay đổi nồng độ amlodipine không tương quan với mức độ suy thận. _Với người có bệnh gan:_ Chưa xác định được liều lượng cho bệnh nhân suy gan. Vì vậy, cần dùng thận trọng cho đối tượng này. _Trẻ em và thanh niên:_\n\n[Document 2]\nTên thuốc: Beatil 4mg/5mg\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\nKhông nên dùng cho trẻ em và thanh niên vì chưa xác định được hiệu lực và độ an toàn của perindopril và amlodipine (dùng riêng rẽ hay kết hợp) cho đối tượng này. **Quá liều** Tác dụng phụ hay gặp nhất khi ngộ độc thuốc là hạ huyết áp làm cảm thấy choáng váng hoặc uể oải. Xử trí:nằm ngửa và nâng cao chân.",
+    "sources": [
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 1
+      }
+    ],
+    "num_results": 2,
+    "elapsed_seconds": 9.557,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q10",
+    "query": "Beatil 4mg/5mg chứa hoạt chất nào?",
+    "answerable": true,
+    "expected_drug": "Beatil 4mg/5mg",
+    "expected_sections": [
+      "Thành phần hoạt chất"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Beatil 4mg/5mg chứa hoạt chất nào?",
+    "answer": "Theo section \"Thành phần hoạt chất\" của thuốc Beatil 4mg/5mg, sản phẩm chứa 2 hoạt chất gồm:\n\n- **Perindopril (Chính):** 4mg\n- **Amlodipine:** 4mg",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Beatil 4mg/5mg\nSection: Thành phần hoạt chất\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\n2 hoạt chất\n\n| Tên hoạt chất | Hàm lượng |\n| --- | --- |\n| PerindoprilChính | 4mg |\n| Amlodipine | 4mg |\n\n[Document 2]\nTên thuốc: Beatil 4mg/5mg\nSection: Thông tin từ hoạt chất: Perindopril\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\nCác thông tin dược lý, dược động học và tác dụng của hoạt chất chính\n\n[Document 3]\nTên thuốc: Beatil 4mg/5mg\nSection: Công dụng Beatil 4mg/5mg\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\nLà chất ức chế enzyme chuyển dạng angiotensin I thành angiotensin II (ACE: enzyme chuyển dạng angiotensin). Enzyme chuyển dạng (hoặc kinase) là một exopeptidase giúp chuyển angiotensin I thành angiotensin II, chất làm co mạch và làm giáng hóa chất giãn mạch bradykinine để cho các heptapeptid mất hoạt tính. Khi ức chế ACE sẽ làm giảm angiotensin II trong huyết tương, kéo theo làm tăng hoạt tính renin trong huyết tương (do ức chế sự phản hồi âm tính của sự tiết renin) và làm giảm sự tiết aldosterone. Vì ACE làm mất hoạt tính của bradykinine, nên ức chế ACE sẽ làm tăng hoạt tính của hệ kallikrein-kinin tại chỗ và toàn thân (và do đó cũng làm hoạt hóa hệ prostaglandin). Có khả năng là cơ chế này đã góp phần vào tác dụng làm hạ huyết áp của các thuốc ức chế ACE và một phần chịu trách nhiệm về một số tác dụng phụ của perindopril (ví dụ: ho) Perindopril tác động qua chất chuyển hóa có hoạt tính là perindoprilat. Các chất chuyển hóa khác không ức chế in vitro hoạt tính của ACE. _Tăng huyết áp_\n\n[Document 4]\nTên thuốc: Beatil 4mg/5mg\nSection: Chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\nLà chất ức chế enzyme chuyển dạng angiotensin I thành angiotensin II (ACE: enzyme chuyển dạng angiotensin). Enzyme chuyển dạng (hoặc kinase) là một exopeptidase giúp chuyển angiotensin I thành angiotensin II, chất làm co mạch và làm giáng hóa chất giãn mạch bradykinine để cho các heptapeptid mất hoạt tính. Khi ức chế ACE sẽ làm giảm angiotensin II trong huyết tương, kéo theo làm tăng hoạt tính renin trong huyết tương (do ức chế sự phản hồi âm tính của sự tiết renin) và làm giảm sự tiết aldosterone. Vì ACE làm mất hoạt tính của bradykinine, nên ức chế ACE sẽ làm tăng hoạt tính của hệ kallikrein-kinin tại chỗ và toàn thân (và do đó cũng làm hoạt hóa hệ prostaglandin). Có khả năng là cơ chế này đã góp phần vào tác dụng làm hạ huyết áp của các thuốc ức chế ACE và một phần chịu trách nhiệm về một số tác dụng phụ của perindopril (ví dụ: ho) Perindopril tác động qua chất chuyển hóa có hoạt tính là perindoprilat. Các chất chuyển hóa khác không ức chế in vitro hoạt tính của ACE. _Tăng huyết áp_\n\n[Document 5]\nTên thuốc: Beatil 4mg/5mg\nSection: Công dụng Beatil 4mg/5mg\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\nTiêu chuẩn đánh giá hiệu quả chủ yếu là tổng hợp của tử vong tim mạch, nhồi máu cơ tim không tử vong và/hoặc ngưng tim được hồi sức thành công. Điều trị với 8mg perindopril tert-butylamine (tương đương 10mg perindopril arginine) mỗi ngày một lần đã làm giảm rõ rệt kết cục lâm sàng chính (primary endpoint): 1,9% (giảm nguy cơ tương đối RRR 20%, 95% Cl `9,4; 28,6` - p < 0,001) trên các kết cục lâm sàng chính khi so với placebo. _Amlodipine_ Amlodipine là chất ức chế dòng ion calci đi vào, thuộc nhóm dihydropyridine (chẹn kênh chậm hoặc đối kháng ion calci) và ức chế dòng ion calci đi vào tim và cơ trơn của mạch máu. Cơ chế chống tăng huyết áp của amlodipine là do tác dụng trực tiếp làm giãn cơ trơn mạch máu. Cơ chế chính xác mà amlodipine làm giảm cơn đau thắt ngực chưa được xác định đầy đủ, nhưng amlodipine làm giảm tổng gánh nặng thiếu máu cục bộ nhờ 2 tác dụng sau đây:",
+    "sources": [
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Thành phần hoạt chất",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Thông tin từ hoạt chất: Perindopril",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Công dụng Beatil 4mg/5mg",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Công dụng Beatil 4mg/5mg",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 4
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 21.124,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q11",
+    "query": "Nebilet có chống chỉ định gì?",
+    "answerable": true,
+    "expected_drug": "Nebilet",
+    "expected_sections": [
+      "Chống chỉ định"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Nebilet có chống chỉ định gì?",
+    "answer": "Chống chỉ định của thuốc Nebilet bao gồm:\n\n- Quá mẫn với nebivolol hoặc bất cứ thành phần nào của thuốc.\n- Suy gan hoặc suy giảm chức năng gan.\n- Suy tim cấp tính, sốc tim, hoặc đợt suy tim mất bù cần được tiêm mạch thuốc co bóp cơ tim.\n- Hội chứng rối loạn khả năng dẫn truyền ở nút xoang, bao gồm cả blốc xoang – nhĩ.\n- Blốc tim độ 2 hoặc độ 3 (không được đặt máy điều hòa nhịp).\n- Tiền sử co thắt phế quản hoặc hen phế quản.\n- U tuỷ thượng thận chưa điều trị.\n- Nhiễm toan chuyển hoá.\n- Nhịp tim chậm (nhịp tim < 60 nhịp/phút trước khi bắt đầu điều trị).\n- Hạ huyết áp (huyết áp tâm thu < 90 mmHg).\n- Rối loạn tuần hoàn ngoại vi nặng.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Nebilet\nSection: Chống chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nQuá mẫn với nebivolol hoặc bất cứ thành phần nào của thuốc.\nSuy gan hoặc suy giảm chức năng gan.\nSuy tim cấp tính, sốc tim, hoặc đợt suy tim mất bù cần được tiêm mạch thuốc co bóp cơ tim.\nHội chứng rối loạn khả năng dẫn truyền ở nút xoang, bao gồm cả blốc xoang – nhĩ.\nBlốc tim độ 2 hoặc độ 3 (không được đặt máy điều hòa nhịp).\nTiền sử co thắt phế quản hoặc hen phế quản.\nU tuỷ thượng thận chưa điều trị.\nNhiễm toan chuyển hoá.\nNhịp tim chậm (nhịp tim < 60 nhịp/phút trước khi bắt đầu điều trị) Hạ huyết áp (huyết áp tâm thu < 90 mmHg).\nRối loạn tuần hoàn ngoại vi nặng.",
+    "sources": [
+      {
+        "drug_name": "Nebilet",
+        "section": "Chống chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 1,
+    "elapsed_seconds": 7.502,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q12",
+    "query": "Những tác dụng phụ nào của Nebilet được liệt kê?",
+    "answerable": true,
+    "expected_drug": "Nebilet",
+    "expected_sections": [
+      "Tác dụng phụ"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Những tác dụng phụ nào của Nebilet được liệt kê?",
+    "answer": "Tác dụng phụ của Nebilet được liệt kê trong tài liệu như sau:\n\n**1. Đối với bệnh nhân cao huyết áp:**\n* **Thường gặp (1/100 ≤ ADR < 1/10):**\n  * *Hệ thần kinh:* Đau đầu, hoa mắt, dị cảm.\n  * *Hệ hô hấp, ngực và trung thất:* Khó thở.\n  * *Tiêu hóa:* Táo bón, buồn nôn, tiêu chảy.\n  * *Rối loạn chung:* Mệt mỏi, phù.\n* **Ít gặp (1/1000 ≤ ADR < 1/100):**\n  * *Tâm thần:* Ác mộng, trầm cảm.\n  * *Thị giác:* Giảm thị lực.\n  * *Nhịp tim:* Nhịp tim chậm, suy tim, chậm dẫn truyền nhĩ-thất/bloc nhĩ-thất.\n  * *Mạch:* Hạ huyết áp (tăng) đau cách hồi.\n  * *Hệ hô hấp, ngực và trung thất:* Co thắt phế quản.\n  * *Tiêu hóa:* Khó tiêu, đầy hơi, nôn mửa.\n  * *Da và mô dưới da:* Ngứa, phát ban, ban đỏ.\n  * *Tuyến vú và hệ sinh sản:* Bất lực.\n* **Rất hiếm gặp (ADR < 1/10.000):**\n  * *Hệ thần kinh:* Ngất.\n  * *Da và mô dưới da:* Bệnh vẩy nến nặng thêm.\n* **Chưa rõ tần suất (Không biết):**\n  * *Hệ miễn dịch:* Phù mạch thần kinh, phản ứng quá mẫn.\n\n**2. Đối với bệnh nhân suy tim mạn tính:**\n* *Thường gặp nhất:* Nhịp tim chậm, hoa mắt.\n* *Các tác dụng phụ đặc biệt liên quan:* Suy tim nặng hơn, hạ huyết áp thế đứng, không dung nạp thuốc, bloc nhĩ-thất độ 1, phù chi dưới.\n\n**3. Tác dụng không mong muốn báo cáo với một số thuốc ức chế beta–adrenergic:**\n* Ảo giác, rối loạn tâm thần, lẫn lộn, lạnh/tím tái đầu chi, hội chứng Raynaud, khô mắt, độc tính trên niêm mạc mắt kiểu practolol.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Nebilet\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\n+ Rối loạn da và mô dưới da: Ngứa, phát ban, ban đỏ. + Rối loạn tuyến vú và hệ sinh sản: Bất lực. – Rất hiếm gặp (ADR <1/10, 000): + Rối loạn hệ thần kinh: Ngất. + Rối loạn da và mô dưới da: Bệnh vẩy nến nặng thêm. – Không biết: + Rối loạn hệ miễn dịch: Phù mạch thần kinh, phản ứng quá mẫn. Các tác dụng không mong muốn sau đây cũng được báo cáo với một số thuốc ức chế beta – adrenergic: Ảo giác, rối loạn tâm thần, lẫn lộn, lạnh/tím tái đầu chi, hội chứng Raynaud, khô mắt, độc tính trên niêm mạc mắt kiểu practolol. Suy tim mãn tính:\n\n[Document 2]\nTên thuốc: Nebilet\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nCác tác dụng không mong muốn được được ghi nhận riêng biệt theo bệnh cao huyết áp và suy tim mạn tính vì có sự khác biệt về tình trạng bệnh lý kèm theo. Cao huyết áp: Trong hầu hết các trường hợp các tác dụng không mong muốn từ nhẹ đến trung bình đã được báo cáo, được trình bày trong bảng sau đây, phân loại theo các hệ cơ quan trong cơ thể và theo thứ tự tần suất. – Thường gặp (1/100 ≤ ADR< 1/10): + Rối loạn hệ thần kinh: Đau đầu, hoa mắt, dị cảm. + Rối loạn hệ hô hấp, ngực và trung thất: Khó thở. + Rối loạn tiêu hóa: Táo bón, buồn nôn, tiêu chảy. + Các rối loạn chung: Mệt mỏi, phù.Mệt mỏi, phù – Ít gặp (1/1000 ≤ ADR< 1/100): + Rối loạn tâm thần: Ác mộng, trầm cảm. + Rối loạn thị giác: Giảm thị lực. + Rối loạn nhịp tim: Nhịp tim chậm, suy tim, chậm dẫn truyền nhĩ-thất/ bloc nhĩ-thất. + Rối loạn mạch: Hạ huyết áp (tăng) đau cách hồi. + Rối loạn hệ hô hấp, ngực và trung thất: Co thắt phế quản. + Rối loạn tiêu hóa: Khó tiêu, đầy hơi, nôn mửa.\n\n[Document 3]\nTên thuốc: Nebilet\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nCác dữ liệu về tác dụng không mong muốn đối với những bệnh nhân suy tim mạn tính có được từ một thử nghiệm lâm sàng có so sánh với giả dược trên 1067 bệnh nhân dùng nebivolol và 1061 bệnh nhân dùng giả dược. Trong nghiên cứu này, tổng số 449 bệnh nhân dùng nebivolol (42, 1%) gặp các tác dụng không mong muốn có thể liên quan đến dùng thuốc so với 334 bệnh nhân dùng giả dược (31, 5%). Các tác dụng không mong muốn thường gặp nhất được báo cáo ở các bệnh nhân dùng nebivolol là nhịp tim chậm và hoa mắt, cả 2 triệu chứng xảy ra ở khoảng 11% bệnh nhân. Tần suất tương ứng với nhóm dùng giả dược là khoảng 2% và 7%. Tỉ lệ gặp các tác dụng không mong muốn được báo cáo sau đây (có khả năng liên quan đến việc dùng thuốc), được xem như đặc biệt có liên quan với việc điều trị suy tim mạn tính. Suy tim nặng hơn xảy ra ở 5, 8% bệnh nhân dùng nebivolol so với 5, 2% bệnh nhân dùng giả dược. Hạ huyết áp thế đứng được báo cáo ở 2, 1% bệnh nhân dùng nebivolol so với 1, 0% bệnh nhân dùng giả dược.\n\n[Document 4]\nTên thuốc: Nebilet\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nKhông dung nạp thuốc được báo cáo ở 1, 6% bệnh nhân dùng nebivolol so với 0, 8% bệnh nhân dùng giả dược. Bloc nhĩ-thất độ 1 xảy ra ở 1, 4% bệnh nhân dùng nebivolol so với 0, 9% bệnh nhân dùng giả dược. Phù chi dưới được báo cáo ở 1, 0% bệnh nhân dùng nebivolol so với 0, 2% bệnh nhân dùng giả dược. Thông báo cho bác sỹ những tác dụng phụ không mong muốn gặp phải khi sử dụng thuốc.",
+    "sources": [
+      {
+        "drug_name": "Nebilet",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 2
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 3
+      }
+    ],
+    "num_results": 4,
+    "elapsed_seconds": 16.914,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q13",
+    "query": "Có thông tin nào về tương tác thuốc của Nebilet?",
+    "answerable": true,
+    "expected_drug": "Nebilet",
+    "expected_sections": [
+      "Tương tác thuốc"
+    ],
+    "answer": "Dưới đây là thông tin về tương tác thuốc của Nebilet dựa trên tài liệu được cung cấp:\n\n**1. Không nên phối hợp:**\n* **Thuốc chống loạn nhịp nhóm I** *(quinidin, hydroquinidin, cibenzolin, flecainid, disopyramid, lidocain, mexiletin, propafenon)*: Tăng tác động lên thời gian dẫn truyền nhĩ-thất và tăng tác động hướng cơ âm tính.\n* **Thuốc chẹn kênh calci nhóm verapamil/diltiazem**: Tác dụng âm tính lên co bóp và dẫn truyền nhĩ-thất. Tiêm tĩnh mạch verapamil khi đang dùng thuốc chẹn beta có thể gây hạ huyết áp quá mức và blốc nhĩ-thất.\n* **Thuốc hạ huyết áp tác động lên trung ương** *(clonidin, guanfacin, moxonidin, methyldopa, rilmenidin)*: Có thể làm nặng hơn tình trạng suy tim. Ngừng thuốc đột ngột có thể làm tăng nguy cơ \"tăng huyết áp dội ngược\".\n\n**2. Thận trọng khi phối hợp:**\n* **Thuốc chống loạn nhịp nhóm III** *(amiodaron)*: Tăng tác động lên thời gian dẫn truyền nhĩ-thất.\n* **Thuốc gây mê bay hơi dẫn xuất halogen**: Giảm nhịp tim nhanh phản xạ và tăng nguy cơ hạ huyết áp.\n* **Insulin và thuốc uống điều trị đái tháo đường**: Có thể che lấp triệu chứng hạ đường huyết (nhịp tim nhanh, đánh trống ngực).\n* **Baclofen, amifostin**: Có khả năng làm tăng tác dụng hạ huyết áp.\n\n**3. Các tương tác cần lưu ý khác:**\n* **Digitalis glycosid**: Dùng đồng thời có thể làm tăng thời gian dẫn truyền nhĩ-thất (tuy nhiên nebivolol không ảnh hưởng đến dược động học của digoxin).\n* **Thuốc chẹn calci nhóm dihydropyridin** *(amlodipin, felodipin, lacidipin, nifedipin, nicardipin, nimodipin, nitrendipin)*: Tăng nguy cơ hạ huyết áp và gia tăng nguy cơ suy giảm chức năng bơm máu của tâm thất ở bệnh nhân suy tim.\n* **Thuốc an thần, thuốc chống trầm cảm** *(3 vòng, barbiturat, phenothiazin)*: Tăng tác dụng hạ huyết áp.\n* **Thuốc giống giao cảm**: Có thể trung hòa tác dụng của thuốc chẹn beta, nguy cơ dẫn đến cao huyết áp, nhịp tim chậm trầm trọng và blốc tim.\n* **Thuốc ức chế CYP2D6** *(paroxetin, fluoxetin, thioridazin, quinidin)*: Làm tăng nồng độ nebivolol trong huyết tương, tăng nguy cơ nhịp tim chậm quá mức.\n* **Cimetidin**: Làm tăng nồng độ nebivolol trong huyết tương nhưng không làm thay đổi tác dụng lâm sàng.\n* **Nicardipin**: Dùng kết hợp làm tăng nhẹ nồng độ trong huyết tương của cả hai thuốc nhưng không thay đổi tác dụng lâm sàng.\n\n**4. Không ảnh hưởng / Không làm thay đổi dược động học:**\n* **NSAID**: Không ảnh hưởng đến hiệu quả giảm huyết áp của nebivolol.\n* **Ranitidin**: Không ảnh hưởng đến dược động học của nebivolol (khi nebivolol được dùng cùng bữa ăn và chất kháng acid giữa các bữa ăn).\n* **Cồn, furosemid, hydroclorothiazid**: Không ảnh hưởng dược động học của nebivolol.\n* **Warfarin**: Nebivolol không ảnh hưởng đến dược động học và dược lực học của warfarin.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Nebilet\nSection: Tương tác thuốc\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nCác digitalis glycosid: Sử dụng đồng thời có thể làm tăng thời gian dẫn truyền nhĩ-thất. Thử nghiệm lâm sàng với nebivolol đã không thấy có bất kỳ bằng chứng lâm sàng nào về tương tác. Nebivolol không ảnh hưởng đến dược động học của digoxin. Thuốc chẹn calci nhóm dihydropyridin (amlodipin, felodipin, lacidipin, nifedipin, nicardipin, nimodipin, nitrendipin): Việc dùng đồng thời có thể làm tăng nguy cơ hạ huyết áp và không loại trừ sự gia tăng nguy cơ suy giảm chức năng bơm máu của tâm thất ở những bệnh nhân suy tim. Thuốc an thần, thuốc chống trầm cảm (3 vòng, barbiturat và phenothiazin): Dùng đồng thời có thể làm tăng tác dụng hạ huyết áp của thuốc chẹn beta (tác động hiệp lực). Thuốc kháng viêm non steroid (NSAID): Không ảnh hưởng đến hiệu quả giảm huyết áp của nebivolol.\n\n[Document 2]\nTên thuốc: Nebilet\nSection: Tương tác thuốc\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nThuốc giống giao cảm: Dùng đồng thời có thể trung hòa tác dụng của thuốc chẹn beta-adrenergic. Các thuốc chẹn beta-adrenergic có thể dẫn đến hoạt tính không chống lại alpha-adrenergic của thuốc giống giao cảm có cả hai tác động alpha và beta-adrenergic (nguy cơ cao huyết áp, nhịp tim chậm trầm trọng và blốc tim). • Tương tác dược động học: Do cơ chế chuyển hóa của nebivolol liên quan đến isoenzym CYP2D6 nên việc dùng đồng thời với các thuốc ức chế men này, đặc biệt là paroxetin, fluoxetin, thioridazin và quinidin có thể làm tăng nồng độ huyết tương của nebivolol kết hợp với tăng nguy cơ nhịp tim chậm quá mức và các tác dụng bất lợi khác. Sử dụng nebivolol kết hợp với cimetidin làm tăng nồng độ nebivolol trong huyết tương nhưng không làm thay đổi tác dụng lâm sàng. Sử dụng kết hợp với ranitidin không ảnh hưởng đến dược động học của nebivolol miễn là nebivolol được dùng cùng với bữa ăn, và một chất kháng acid giữa các bữa ăn, cả hai điều trị có thể kê toa cùng lúc.\n\n[Document 3]\nTên thuốc: Nebilet\nSection: Tương tác thuốc\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\n• Tương tác về dược lực học: Các tương tác sau đây được áp dụng chung cho nhóm chẹn beta: Không nên phối hợp Các thuốc chống loạn nhịp nhóm I (quinidin, hydroquinidin, cibenzolin, flecainid, disopyramid, lidocain, mexiletin, propafenon): Tăng tác động lên thời gian dẫn truyền nhĩ-thất và tăng tác động hướng cơ âm tính. Các thuốc chẹn kênh calci thuộc nhóm verapamil/diltiazem: Tác dụng âm tính lên sự co bóp và dẫn truyền nhĩ-thất. Tiêm tĩnh mạch verapamil trên bệnh nhân đang điều trị bằng thuốc chẹn beta có thể dẫn đến hạ huyết áp quá mức và blốc nhĩ-thất. Thuốc hạ huyết áp tác động lên trung ương (clonidin, guanfacin, moxonidin, methyldopa, rilmenidin): Dùng đồng thời với thuốc hạ huyết áp tác động lên trung ương có thể làm nặng hơn tình trạng suy tim do làm giảm trương lực thần kinh giao cảm trung ương (giảm nhịp tim và công suất tim, giãn mạch). Ngưng thuốc đột ngột, đặc biệt nếu trước đó ngừng sử dụng thuốc chẹn beta, có thể làm tăng nguy cơ ‘‘tăng huyết áp dội ngược“.\n\n[Document 4]\nTên thuốc: Nebilet\nSection: Tương tác thuốc\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nThận trọng khi phối hợp: Các thuốc chống loạn nhịp tim nhóm III (amiodaron): Tăng tác động lên thời gian dẫn truyền nhĩ-thất. Các thuốc gây mê bay hơi dẫn xuất halogen: Dùng đồng thời thuốc chẹn beta và thuốc gây mê có thể làm giảm nhịp tim nhanh phản xạ và làm tăng nguy cơ hạ huyết áp. Về nguyên tắc chung nên tránh ngừng đột ngột thuốc chẹn beta. Thông báo cho nhân viên gây mê khi bệnh nhân đang dùng nebivolol. Insulin và thuốc uống điều trị đái tháo đường: Mặc dù nebivolol không ảnh hưởng đến nồng độ glucose trong máu, việc sử dụng đồng thời có thể che lấp một vài triệu chứng hạ đường huyết (nhịp tim nhanh, đánh trống ngực). Baclofen (thuốc giãn cơ), amifostin (thuốc hỗ trợ điều trị ung thư): Sử dụng đồng thời với thuốc hạ huyết áp có khả năng tăng hạ huyết áp. Vì thề phân liều thuốc hạ huyết áp nên được điều chỉnh phù hợp. Lưu ý khi phối hợp:\n\n[Document 5]\nTên thuốc: Nebilet\nSection: Tương tác thuốc\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nKết hợp nebivolol và nicardipin làm tăng nhẹ nồng độ trong huyết tương của cả hai thuốc nhưng không làm thay đổi tác dụng lâm sàng. Sử dụng đồng thời với cồn, furosemid hoặc hydroclorothiazid không ảnh hưởng dược động học của nebivolol. Nebivolol không ảnh hưởng đến dược động học và dược lực học của warfarin.",
+    "sources": [
+      {
+        "drug_name": "Nebilet",
+        "section": "Tương tác thuốc",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 2
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Tương tác thuốc",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 3
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Tương tác thuốc",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Tương tác thuốc",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Tương tác thuốc",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 4
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 20.011,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": "",
+    "model": "gemini-3.6-flash",
+    "reused_from_legacy_results": true
+  },
+  {
+    "id": "Q14",
+    "query": "Tài liệu nêu liều lượng và cách dùng Nebilet như thế nào?",
+    "answerable": true,
+    "expected_drug": "Nebilet",
+    "expected_sections": [
+      "Liều lượng - Cách dùng"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Tài liệu nêu liều lượng và cách dùng Nebilet như thế nào?",
+    "answer": "Dựa trên phần thông tin \"Liều lượng - Cách dùng\" trong tài liệu được cung cấp, liều lượng và cách dùng Nebilet được quy định như sau:\n\n**1. Điều trị tăng huyết áp ở người lớn:**\n* **Liều dùng:** 5mg/ngày, tốt nhất nên uống cùng thời điểm trong ngày.\n* **Kết hợp thuốc:** Có thể dùng một mình hoặc kết hợp với thuốc điều trị tăng huyết áp khác (tăng hiệu quả khi kết hợp nebivolol 5mg với hydroclorothiazid 12,5–25mg).\n\n**2. Điều trị suy tim mãn tính:**\n* **Điều kiện:** Phải bắt đầu trên bệnh nhân suy tim đã ổn định (không có triệu chứng suy tim cấp trong 6 tuần qua). Nếu đang điều trị bằng các thuốc tim mạch khác (thuốc lợi tiểu, ức chế men chuyển, đối kháng thụ thể angiotensin II), liều các thuốc này phải ổn định trong 2 tuần trước đó.\n* **Cách tăng liều:** Bắt đầu tăng từng bước cách khoảng 1-2 tuần dựa trên khả năng dung nạp:\n  * 1,25mg x 1 lần/ngày\n  * Tăng lên 2,5mg x 1 lần/ngày\n  * Tăng lên 5mg x 1 lần/ngày\n  * Tăng lên 10mg x 1 lần/ngày\n* **Liều tối đa khuyến cáo:** 10mg x 1 lần/ngày.\n* **Ghi chú:** Việc khởi đầu và mỗi lần tăng liều phải thực hiện dưới sự giám sát của bác sĩ có kinh nghiệm ít nhất 2 giờ để theo dõi tình trạng lâm sàng.\n\n**3. Liều dùng cho các đối tượng đặc biệt:**\n* **Người cao tuổi:** \n  * Bệnh nhân trên 65 tuổi: Liều khởi đầu khuyến cáo là 2,5mg/ngày; có thể tăng lên 5mg/ngày nếu cần.\n  * Bệnh nhân trên 75 tuổi: Cần thận trọng và theo dõi chặt chẽ.\n* **Bệnh nhân suy thận nặng:** Liều khởi đầu khuyến cáo là 2,5mg/ngày; có thể tăng lên 5mg/ngày nếu cần.\n* **Bệnh nhân suy gan hoặc suy giảm chức năng gan:** Không được chỉ định.\n* **Trẻ em và trẻ vị thành niên (dưới 18 tuổi):** Không khuyến cáo sử dụng.\n\n**4. Xử trí trường hợp quá liều:**\n* Đưa bệnh nhân đến cơ sở y tế để điều trị/chăm sóc đặc biệt. \n* Áp dụng các biện pháp: Kiểm tra đường huyết; ngăn hấp thu (rửa dạ dày, dùng than hoạt tính, thuốc nhuận tràng); hô hấp nhân tạo; điều trị bằng atropin/methylatropin (khi nhịp tim chậm); truyền huyết tương/catecholamin (khi hạ huyết áp, sốc); dùng isoprenalin, dobutamin, dopamin, glucagon hoặc dùng máy điều hòa nhịp tim tùy tình trạng cụ thể.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Nebilet\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nỞ những bệnh nhân trên 65 tuổi, liều khởi đầu khuyến cáo là 2, 5mg/ngày. Nếu cần, có thể tăng liều lên 5mg/ngày. Tuy nhiên, do kinh nghiệm dùng thuốc ở những bệnh nhân trên 75 tuổi còn hạn chế, cần phải thận trọng và theo dõi bệnh nhân chặt chẽ. _Trẻ em:_ Hiệu quả và an toàn của nebivolol đối với trẻ em và trẻ vị thành niên dưới 18 tuổi chưa được thiết lập. Vì thế, nebivolol không được khuyến cáo sử dụng ở trẻ em dưới 18 tuổi do thiếu dữ liệu về tính an toàn và hiệu quả. _**Suy tim mãn tính:**_ Điều trị suy tim mạn tính đã ổn định phải được bắt đầu bằng cách điều chỉnh tăng liều từ từ đến khi đạt được liều duy trì tối ưu đối với từng cá nhân. Bệnh nhân phải là suy tim đã ổn định không có triệu chứng suy tim cấp trong vòng 6 tuần qua. Cần khuyến cáo là bác sỹ điều trị phải có kinh nghiệm trong việc điều trị suy tim mạn tính.\n\n[Document 2]\nTên thuốc: Nebilet\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\n**_Tăng huyết áp_** _Người lớn:_ Liều dùng 5mg/ngày, tốt nhất là nên uống cùng thời điểm trong ngày. Tác dụng làm hạ huyết áp thấy rõ sau 1-2 tuần điều trị. Đôi khi, tác dụng tối ưu chỉ đạt được sau 4 tuần. _Kết hợp với thuốc điều trị tăng huyết áp khác:_ Thuốc chẹn beta có thể được sử dụng một mình hay kết hợp với thuốc điều trị tăng huyết áp khác. Cho đến nay, tăng hiệu quả điều trị tăng huyết áp chỉ khi được kết hợp nebivolol 5mg với hydroclorothiazid 12, 5-25mg. _Bệnh nhân bị suy giảm chức năng thận:_ Ở bệnh nhân suy thận nặng, liều khởi đầu khuyến cáo là 2, 5mg/ngày. Nếu cần, có thể tăng liều lên 5mg/ngày. _Bệnh nhân bị suy giảm chức năng gan:_ Dữ liệu về bệnh nhân suy gan hoặc suy giảm chức năng gan còn hạn chế. Vì thế, không được chỉ định nebivolol cho các bệnh nhân trong trường hợp này. _Người cao tuổi:_\n\n[Document 3]\nTên thuốc: Nebilet\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nĐối với những bệnh nhân đang điều trị bằng thuốc tim mạch bao gồm cả thuốc lợi tiểu và/hoặc thuốc ức chế men chuyển và /hoặc thuốc đối kháng thụ thể angiotensin II, liều lượng của những thuốc này nên được ổn định trong 2 tuần trước đó trước khi bắt đầu điều trị bằng nebivolol. Bắt đầu tăng liều được thực hiện từng bước cách khoảng 1-2 tuần dựa trên khả năng dung nạp của bệnh nhân: 1, 25mg nebivolol, tăng lên 2, 5mg nebivolol x 1 lần/ngày, sau đó tăng lên 5mg x 1 lần/ngày và 10mg x 1 lần/ngày. Liều khuyến cáo tối đa là 10mg x 1 lần/ngày. Khởi đầu điều trị và mỗi lần tăng liều nên được thực hiện dưới sự giám sát của bác sỹ có kinh nghiệm trong khoảng thời gian ít nhất 2 giờ để chắc chắn tình trạng lâm sàng (đặc biệt đối với huyết áp, nhịp tim, rối loạn dẫn truyền, những dấu hiệu suy tim xấu đi) vẫn còn ổn định.\n\n[Document 4]\nTên thuốc: Nebilet\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nNếu cần thiết, tiêm tĩnh mạch lặp lại trong vòng một giờ, tiếp theo truyền tĩnh mạch glucagon 70 µg/kg/giờ. Trong trường nhịp tim chậm quá mức đề kháng với việc điều trị có thể dùng thêm máy điều hòa nhịp tim.\n\n[Document 5]\nTên thuốc: Nebilet\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nTrường hợp quá liều hoặc quá mẫn cảm với thuốc, nên đưa bệnh nhân đến các cơ sở y tế để được điều trị và chăm sóc đặc biệt. Lượng đường trong máu cần được kiểm tra. Có thể ngăn chặn sự hấp thụ của lượng thuốc còn lại vẫn còn hiện diện trong đường tiêu hóa bằng cách rửa dạ dày và dùng than hoạt tính và thuốc nhuận tràng. Cần hô hấp nhân tạo. Nhịp tim chậm hoặc phản ứng phó giao cảm quá mức nên được điều trị bằng cách dùng atropin hoặc methylatropin. Hạ huyết áp và sốc nên được điều trị bằng huyết tương hoặc chất thay thế huyết tương và nếu cần thiết dùng catecholamin. Tác dụng của thuốc chẹn beta có thể giảm bằng cách tiêm tĩnh mạch chậm isoprenalin hydroclorid, bắt đầu với một liều lượng khoảng 5 µg/phút, hoặc với dobutamin, bắt đầu với liều 2, 5 µg/phút, cho đến khi đạt hiệu quả mong muốn. Trong trường hợp dai dẳng, dùng isoprenalin có thể được kết hợp với dopamin. Nếu vẫn chưa đạt hiệu quả mong muốn có thể tiêm tĩnh mạch glucagon 50-100 µg/kg.",
+    "sources": [
+      {
+        "drug_name": "Nebilet",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 2
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 6
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 5
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 11.866,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q15",
+    "query": "Hoạt chất của Nebilet là gì?",
+    "answerable": true,
+    "expected_drug": "Nebilet",
+    "expected_sections": [
+      "Thành phần hoạt chất"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Hoạt chất của Nebilet là gì?",
+    "answer": "Hoạt chất của Nebilet là Nebivolol (hàm lượng 5mg).",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Nebilet\nSection: Thành phần hoạt chất\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\n1 hoạt chất\n\n| Tên hoạt chất | Hàm lượng |\n| --- | --- |\n| NebivololChính | 5mg |\n\n[Document 2]\nTên thuốc: Nebilet\nSection: Tác dụng Nebivolol\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nNebivolol thuộc nhóm thuốc chẹn beta, thuốc hoạt động bằng cách ngăn chặn tác động của các chất tự nhiên trong cơ thể chẳng hạn như epinephrine đến tim và mạch máu. Tác dụng này giúp làm giảm nhịp tim, bình ổn huyết áp và giảm căng thẳng cho tim.\n\n[Document 3]\nTên thuốc: Nebilet\nSection: Thông tin từ hoạt chất: Nebivolol\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nCác thông tin dược lý, dược động học và tác dụng của hoạt chất chính\n\n[Document 4]\nTên thuốc: Nebilet\nSection: Công dụng Nebilet\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nMức ổn định trong huyết tương ở hầu hết chủ thể (những người chuyển hóa nhanh) đạt được trong vòng 24 giờ đối với nebivolol và trong vòng vài ngày cho các chất chuyển hóa hydroxyl. Trong huyết tương, cả hai dạng đồng phân nebivolol phần lớn được kết hợp với albumin. Liên kết protein huyết tương là 98, 1% đối với SRRR-nebivolol và 97, 9% đối với RSSS-nebivolol. _Chuyển hóa:_ Nebivolol được chuyển hóa nhiều, một phần tạo thành chất chuyển hóa hydroxyl có hoạt tính. Nebivolol được chuyển hóa qua sự hydroxyl hóa vòng no và vòng thơm, khử alkyl ở N- và glucuronic hóa, ngoài ra còn hình thành các glucuronid của các chất chuyển hóa hydroxyl. Sự chuyển hóa của nebivolol bằng cách hydroxyl hóa vòng thơm tùy thuộc vào tính đa hình oxy hóa có tính chất di truyền phụ thuộc CYP2D6. Sinh khả dụng đường uống của nebivolol trung bình là 12% ở những người chuyển hóa nhanh và hầu như hoàn toàn ở những người chuyển hóa chậm. _Thải trừ:_\n\n[Document 5]\nTên thuốc: Nebilet\nSection: Dược động học Nebivolol\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nCả hai đồng phân quang học của nebivolol đều hấp thu nhanh sau khi uống. Việc hấp thu của nebivolol không bị ảnh hưởng bởi thức ăn, nebivolol có thể dùng cùng hoặc không cùng với thức ăn. Nebivolol được chuyển hóa rộng rãi, phần lớn thành chất chuyển hóa hydroxy hoạt tính. Nebivolol được chuyển hóa thông qua hydroxyl hóa vòng no và vòng thơm, khử alkyl và glucuronide hóa, ngoài ra, glucuronide của chất chuyển hóa hydroxyl cũng được hình thành.",
+    "sources": [
+      {
+        "drug_name": "Nebilet",
+        "section": "Thành phần hoạt chất",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Tác dụng Nebivolol",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Thông tin từ hoạt chất: Nebivolol",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Công dụng Nebilet",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 2
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Dược động học Nebivolol",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 5.109,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q16",
+    "query": "Medsolu 16 mg có những chống chỉ định nào?",
+    "answerable": true,
+    "expected_drug": "Medsolu 16 mg",
+    "expected_sections": [
+      "Chống chỉ định"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Medsolu 16 mg có những chống chỉ định nào?",
+    "answer": "Theo thông tin trong tài liệu, thuốc Medsolu 16 mg chống chỉ định trong các trường hợp sau:\n\n- Bệnh nhân bị mẫn cảm với các thành phần thuốc.\n- Đang dùng vaccin virus sống.\n- Nhiễm khuẩn nặng (trừ sốc nhiễm khuẩn và lao màng não).\n- Tổn thương da do virus, nấm hay lao.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Medsolu 16 mg\nSection: Chống chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx\nNội dung:\nBệnh nhân bị mẫn cảm với các thành phần thuốc.\nĐang dùng vaccin virus sống.\nNhiễm khuẩn nặng trừ sốc nhiễm khuẩn và lao màng não.\nTổn thương da do virus, nấm hay lao.",
+    "sources": [
+      {
+        "drug_name": "Medsolu 16 mg",
+        "section": "Chống chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 1,
+    "elapsed_seconds": 11.384,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q17",
+    "query": "Tài liệu ghi nhận tác dụng phụ nào của Medsolu 16 mg?",
+    "answerable": true,
+    "expected_drug": "Medsolu 16 mg",
+    "expected_sections": [
+      "Tác dụng phụ"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Tài liệu ghi nhận tác dụng phụ nào của Medsolu 16 mg?",
+    "answer": "Theo tài liệu được cung cấp, khi dùng Medsolu 16 mg liều cao và kéo dài có thể gây ra các tác dụng phụ sau:\n\n* Buồn nôn\n* Loét dạ dày tá tràng\n* Nhức đầu\n* Dễ bị kích động\n* Rậm lông\n* Phù\n* Tăng huyết áp\n* Yếu cơ\n* Loãng xương",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Medsolu 16 mg\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx\nNội dung:\nKhi dùng thuốc liều cao và kéo dài có thể gây buồn nôn, loét dạ dày tá tràng, nhức đầu, dễ bị kích động, rậm lông, phù, tăng huyết áp, yếu cơ, loãng xương.",
+    "sources": [
+      {
+        "drug_name": "Medsolu 16 mg",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 1,
+    "elapsed_seconds": 11.397,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q18",
+    "query": "Liều dùng và cách dùng Medsolu 16 mg được ghi như thế nào?",
+    "answerable": true,
+    "expected_drug": "Medsolu 16 mg",
+    "expected_sections": [
+      "Liều lượng - Cách dùng"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Liều dùng và cách dùng Medsolu 16 mg được ghi như thế nào?",
+    "answer": "Thông tin về liều lượng và cách dùng thuốc Medsolu 16 mg trong tài liệu như sau:\n\n**1. Cách dùng:**\n* Uống cả viên thuốc với nhiều nước, không nhai viên thuốc.\n* Nếu được chỉ định dùng 1 lần/ngày, nên uống vào buổi sáng (lúc 8 giờ sáng).\n* Không ngưng thuốc đột ngột khi sử dụng liều cao trong thời gian dài; phải giảm liều từ từ theo chỉ định của bác sĩ.\n* Nếu xuất hiện lại hoặc nặng hơn các triệu chứng khi đã giảm liều, cần hỏi ý kiến bác sĩ ngay.\n\n**2. Liều lượng chung:**\n* Liều khởi đầu: 4 – 48 mg/ngày, duy trì và điều chỉnh cho đến khi có đáp ứng thỏa mãn.\n* Nếu điều trị dài ngày, cần xác định liều thấp nhất có tác dụng bằng cách giảm liều dần.\n\n**3. Liều khởi đầu/liều dùng cho các trường hợp cụ thể:**\n* **Viêm khớp dạng thấp nặng:** 16 mg\n* **Viêm cơ da toàn thân:** 48 mg\n* **Lupus ban đỏ hệ thống:** 16 – 100 mg\n* **Thấp khớp cấp tính:** 48 mg cho đến khi ERS bình thường trong 1 tuần\n* **Bệnh dị ứng:** 16 – 40 mg\n* **Hen phế quản:** Tối đa 64 mg/ngày hoặc tối đa 100 mg/liệu pháp cách ngày\n* **Bệnh về mắt:** 16 – 40 mg\n* **Bệnh về máu và bạch cầu:** 16 – 100 mg\n* **U lympho ác tính:** 16 – 100 mg\n* **Viêm loét đại tràng:** 16 – 60 mg\n* **Bệnh Crohn:** Tới 48 mg/ngày trong giai đoạn cấp tính\n* **Cấy ghép tạng:** Tới 3,6 mg/kg/ngày\n* **Bệnh sarcoid:** 0,8 mg/kg/ngày (dùng liều duy trì thấp: 8 mg/ngày) hoặc 32 – 48 mg trong liệu trình cách ngày\n* **Đợt cấp của xơ cứng rải rác:** 160 mg/ngày trong 1 tuần, sau đó giảm xuống 64 mg/ngày trong 1 tháng\n* **Đau đa cơ do thấp khớp:** 64 mg\n* **Bệnh Pemphigus:** 80 – 360 mg",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Medsolu 16 mg\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx\nNội dung:\nLiều khởi đầu 4-48mg/ngày. Nên duy trì và điều chỉnh liều cho đến khi có sự đáp ứng thỏa mãn. Nếu điều trị trong thời gian dài nên xác định liều thấp nhất có thể đạt tác dụng cần có bằng cách giảm liều dần cho tới khi thấy các dấu hiệu hoặc triệu chứng bệnh tăng lên.\nKhông nên ngưng thuốc đột ngột trong thời gian dài sử dụng liều cao, phải giảm liều từ từ. Bác sĩ sẽ kê liều tối thiểu để có tác dụng. Nếu được bác sĩ chỉ định dùng thuốc một lần/ngày, nên uống thuốc vào buổi sáng (lúc 8 giờ sáng). Uống cả viên thuốc với nhiều nước, không nhai viên thuốc. Sau liệu pháp điều trị lâu dài, bác sĩ sẽ xem xét và chỉ định ngừng methylprednisolon dần dần. Nếu các triệu chứng xuất hiện lại hoặc nặng hơn khi liều methylprednisolon đã giảm, bạn hãy hỏi ý kiến bác sĩ ngay lập tức. Bệnh sarcoid:\n0,8mg/kg/ngày. Dùng liều duy trì thấp: 8mg/ngày.\nĐợt cấp của sơ cứng rải rác:\nLiều mỗi ngày là 160mg, dùng trong 1 tuần, sau đó giảm liều còn 64mg mỗi ngày, dùng trong 1 tháng.\n\n[Document 2]\nTên thuốc: Medsolu 16 mg\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx\nNội dung:\n_Chỉ địnhLiều khởi đầu hàng ngày_ Viêm khớp dạng thấp Nặng16 mg Viêm cơ da toàn thân48 mg Lupus ban đỏ hệ thống16 – 100 mg Thấp khớp cấp tính48 mg cho đến khi ERS bình thường trong 1 tuần Bệnh dị ứng16 – 40 mg Hen phế quảnTối đa 64 mg/ngày hoặc tối đa 100 mg/liệu pháp cách ngày Bệnh về mắt16 – 40 mg Bệnh về máu và bạch cầu16 – 100 mg U lympho ác tính16 – 100 mg Viêm loét đại tràng16 – 60 mg Bệnh CrohnTới 48 mg/ngày trong giai đoạn cấp tính Cấy ghép tạngTới 3,6 mg/kg/ngày Bệnh sarcoid32 – 48 mg trong liệu trình cách ngày Đau đa cơ do thấp khớp64 mg Bệnh Pemphigus80 – 360 mg",
+    "sources": [
+      {
+        "drug_name": "Medsolu 16 mg",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Medsolu 16 mg",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx",
+        "chunk_index": 1
+      }
+    ],
+    "num_results": 2,
+    "elapsed_seconds": 17.07,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q19",
+    "query": "Nexium 10mg dạng cốm có những chống chỉ định nào?",
+    "answerable": true,
+    "expected_drug": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+    "expected_sections": [
+      "Chống chỉ định"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Nexium 10mg dạng cốm có những chống chỉ định nào?",
+    "answer": "Dựa trên tài liệu được cung cấp, Nexium 10mg dạng cốm chống chỉ định đối với:\n\n* Tiền sử quá mẫn với esomeprazole, phân nhóm benzimidazole hay các thành phần khác trong công thức.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Nexium 10mg dạng cốm pha hỗn dịch uống\nSection: Chống chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx\nNội dung:\nTiền sử quá mẫn với esomeprazole, phân nhóm benzimidazole hay các thành phần khác trong công thức.",
+    "sources": [
+      {
+        "drug_name": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+        "section": "Chống chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 1,
+    "elapsed_seconds": 5.278,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q20",
+    "query": "Nexium 10mg dạng cốm có tương tác thuốc nào được nêu?",
+    "answerable": true,
+    "expected_drug": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+    "expected_sections": [
+      "Tương tác thuốc"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Nexium 10mg dạng cốm có tương tác thuốc nào được nêu?",
+    "answer": "Theo section \"Tương tác thuốc\" của Nexium 10mg dạng cốm:\n\nEsomeprazole ức chế CYP2C19. Khi dùng chung Nexium 10mg với các thuốc chuyển hoá bằng CYP2C29 như diazepam, citalỏpam, imipram, imipramine, clomipramine, phenytoin…, nồng độ của các thuốc này trong huyết tương có thể tăng và cần phải giảm liều dùng.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Nexium 10mg dạng cốm pha hỗn dịch uống\nSection: Tương tác thuốc\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx\nNội dung:\nEsomeprazole ức chế CYP2C19, men chính chuyển hoá esomeprazole. Do vậy, khi esomeprazole được dùng chung với các thuốc chuyển hoá bằng CYP2C29 như diazepam, citalỏpam, imipram, imipramine, clomipramine, phenytoin…, nồng độ các thuốc này trong huyết tương có thể tăng và cần giảm liều dùng.",
+    "sources": [
+      {
+        "drug_name": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+        "section": "Tương tác thuốc",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 1,
+    "elapsed_seconds": 6.923,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q21",
+    "query": "Những tác dụng phụ nào được nêu cho Nexium 10mg dạng cốm?",
+    "answerable": true,
+    "expected_drug": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+    "expected_sections": [
+      "Tác dụng phụ"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Những tác dụng phụ nào được nêu cho Nexium 10mg dạng cốm?",
+    "answer": "Dựa trên tài liệu được cung cấp, các tác dụng phụ của **Nexium 10mg dạng cốm pha hỗn dịch uống** bao gồm:\n\n* **Thường gặp (>1/100):** Phản ứng quá mẫn như phù mạch, phản ứng phản vệ, tăng men gan.\n* **Các phản ứng ghi nhận đối với hỗn hợp racemic (omeprazole) và có thể xảy ra với esomeprazole:**\n  * **Hệ thần kinh trung ương và ngoại vị:** Dị cảm, buồn ngủ, mất ngủ, chóng mặt. Lú lẫn tâm thần có thể hồi phục, kích động, nóng nảy, trầm cảm và ảo giác (chủ yếu ở bệnh nhân mắc bệnh nặng).\n  * **Nội tiết:** Nữ hoá tuyến vú.\n  * **Tiêu hoá:** Viêm miệng và bệnh nấm Candida đường tiêu hoá.\n  * **Huyết học:** Giảm bạch cầu, giảm tiểu cầu, mất bạch cầu hạt và giảm toàn bộ tế bào máu.\n  * **Gan:** Tăng men gan, bệnh não ở bệnh nhân trước đó mắc bệnh gan nặng, viêm gan có hoặc không có vàng da, suy gan.\n  * **Cơ xương:** Đau khớp, yếu cơ và đau cơ.\n  * **Da:** Nổi mẩn, nhạy cảm ánh sáng, hồng ban đa dạng, hội chứng Stevens-Johnson, hoại tử biểu bì gây độc (TEN), rụng tóc.\n  * **Các phản ứng khác:** Mệt mỏi, phản ứng quá mẫn (phù mạch, sốt, co thắt phế quản, viêm thận kẽ), tăng tiết mồ hôi, phù ngoại biên, nhìn mờ, rối loạn vị giác và giảm natri máu.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Nexium 10mg dạng cốm pha hỗn dịch uống\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx\nNội dung:\nCác phản ứng ngoại ý do thuốc sau đây đã được ghi nhận hay nghi ngờ trong các chương trình nghiên cứu lâm sàng của esomeprazole Không có phản ứng nào liên quan đến liều dùng Thường gặp (>1/100,1/1000, 1/10.1000,<1/1000): Phản ứng quá mẫn như phù mạch, phản ứng phản vệ, tăng men gan Các phản ứng ngoại ý được ghi nhận đối với hỗn hợp racemic (omeprazole) và có thể xảy ra với esomeprazole: Hệ thần kinh trung ương và ngoại vị: Dị cảm, buồn ngủ, mất ngủ, chóng mặt Lú lẫn tâm thần có thể hồi phục, kích động, nóng nảy, trầm cảm và ảo giác chủ yếu ở bệnh nhân mắc bệnh nặng Nội tiết: nữ hoá tuyến vú Tiêu hoá: Viêm miệng và bệnh nấm Candida đường tiêu hoá; Huyết học: giảm bạch cầu, giảm tiểu cầu, mất bạch cầu hạt và giảm toàn bộ tế bào máu Gan: tăng men gan, bênh não ở bệnh nhân trước đó mắc bệnh gan nặng: viêm gan có hoặc không có vàng da, suy gan Cơ xương: Đau khớp, yếu cơ và đau cơ\n\n[Document 2]\nTên thuốc: Nexium 10mg dạng cốm pha hỗn dịch uống\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx\nNội dung:\nDa: Nổi mẩn, nhạy cảm ánh sáng hồng ban da dạng, hội chứng Stevens-Johnson hoại tử biểu bì gây độc (TEN), rụng tóc Các phản ứng ngoại ý khác mệt mỏi, phản ứng quá mẫn như: phù mạch, sốt, co thắt phế quản, viêm thận kẽ.Tăng tiết mồ hôi, phù ngoại biên, nhìn mờ rối loạn vị giác và giảm natri máu.\n\n[Document 3]\nTên thuốc: Nexium mups 40mg dạng viên nén kháng dịch dạ dày\nSection: Tác dụng ngoài ý muốn\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-38103/nexium-mups.aspx\nNội dung:\nCác phản ứng ngoại ý do thuốc sau đây đã được ghi nhận hay nghi ngờ trong các chương trình nghiên cứu lâm sàng của esomeprazole. Không có phản ứng nào liên quan đến liều dùng. Thường gặp (>1/100,1/1000, 1/10.1000,<1/1000): Phản ứng quá mẫn như phù mạch, phản ứng phản vệ, tăng men gan. Các phản ứng ngoại ý được ghi nhận đối với hỗn hợp racemic (omeprazole) và có thể xảy ra với esomeprazole: Hệ thần kinh trung ương và ngoại vị: Dị cảm, buồn ngủ, mất ngủ, chóng mặt. Lú lẫn tâm thần có thể hồi phục, kích động, nóng nảy, trầm cảm và ảo giác chủ yếu ở bệnh nhân mắc bệnh nặng. Nội tiết: nữ hoá tuyến vú. Tiêu hoá: Viêm miệng và bệnh nấm Candida đường tiêu hoá; Huyết học: giảm bạch cầu, giảm tiểu cầu, mất bạch cầu hạt và giảm toàn bộ tế bào máu. Gan: tăng men gan, bênh não ở bệnh nhân trước đó mắc bệnh gan nặng: viêm gan có hoặc không có vàng da, suy gan. Cơ xương: Đau khớp, yếu cơ và đau cơ.",
+    "sources": [
+      {
+        "drug_name": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Nexium mups 40mg dạng viên nén kháng dịch dạ dày",
+        "section": "Tác dụng ngoài ý muốn",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-38103/nexium-mups.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 3,
+    "elapsed_seconds": 16.063,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q22",
+    "query": "Tài liệu hướng dẫn liều dùng Nexium 10mg dạng cốm như thế nào?",
+    "answerable": true,
+    "expected_drug": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+    "expected_sections": [
+      "Liều lượng - Cách dùng"
+    ],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Tài liệu hướng dẫn liều dùng Nexium 10mg dạng cốm như thế nào?",
+    "answer": "Dựa trên tài liệu được cung cấp, liều dùng Nexium 10mg dạng cốm pha hỗn dịch uống được hướng dẫn chi tiết như sau:\n\n**1. Trẻ em từ 1 - 11 tuổi (cân nặng ≥ 10kg):**\n*   **Bệnh trào ngược dạ dày - thực quản (GERD):**\n    *   *Điều trị viêm xước thực quản do trào ngược:*\n        *   Cân nặng từ 10kg đến < 20kg: 10mg, 1 lần/ngày trong 8 tuần.\n        *   Cân nặng ≥ 20kg: 10mg hoặc 20mg, 1 lần/ngày trong 8 tuần.\n    *   *Điều trị triệu chứng bệnh GERD:* 10mg, 1 lần/ngày trong 8 tuần.\n*   **Điều trị loét tá tràng do *Helicobacter pylori* (Trẻ từ 4 tuổi trở lên, kết hợp hai kháng sinh trong 1 tuần, dùng 2 lần/ngày):**\n    *   Cân nặng < 30kg: Nexium 10mg + amoxicillin 25mg/kg + clarithromycin 7.5mg/kg.\n    *   Cân nặng 30 - 40kg: Nexium 20mg + amoxicillin 750mg + clarithromycin 7.5mg/kg.\n    *   Cân nặng > 40kg: Nexium 20mg + amoxicillin 1g + clarithromycin 500mg.\n\n**2. Các đối tượng khác:**\n*   **Trẻ em dưới 1 tuổi:** Không khuyến cáo sử dụng do kinh nghiệm điều trị còn hạn chế.\n*   **Người lớn và trẻ vị thành niên từ 12 tuổi trở lên:** Tham khảo thông tin kê toa của *Nexium mups viên nén kháng dịch dạ dày*.\n\n**3. Đối tượng đặc biệt:**\n*   **Tổn thương chức năng thận:** Không cần điều chỉnh liều. Thận trọng khi điều trị ở bệnh nhân suy thận nặng.\n*   **Tổn thương chức năng gan:**\n    *   Mức độ nhẹ đến trung bình: Không cần điều chỉnh liều.\n    *   Suy gan nặng: Trẻ từ 1 - 11 tuổi dùng không quá liều tối đa 10mg; Bệnh nhân > 12 tuổi dùng không quá liều tối đa 20mg.",
+    "refusal_detected": false,
+    "context": "[Document 1]\nTên thuốc: Nexium 10mg dạng cốm pha hỗn dịch uống\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx\nNội dung:\nKhông cần phải điều chỉnh liều ở bệnh nhân tổn thương chức năng thận. Do ít kinh nghiệm về việc dùng thuốc ở bệnh nhân suy thận nặng, nên thận trọng khi điều trị ở các bệnh nhân này (Xem “đặc tính dược động học”). Người tổn thương chức năng gan Không cần phải điều chỉnh liều ở bệnh nhân tổn thương gan ở mức độ từ nhẹ đến trung bình. Ở bệnh nhân > 12 tuổi suy gan nặng, không nên dùng quá liều tối đa là 20mg Nexium. Ở trẻ 1 - 11 tuổi suy gan nặng, không nên dùng quá liều tối đa là 10mg - (Xem “đặc tính dược động học). **Cách dùng** Đối với liều 10mg: cho toàn bộ lượng thuốc trong gói 10mg vào ly chứa khoảng 15ml nước. Đối với liều 20mg: cho toàn bộ lượng thuốc trong 2 gói 10mg vào ly chứa khoảng 30ml nước. Khuấy đều cho đến khi cốm phân tán hết và để vài phút cho đặc lại. Khuấy lại và uống trong vòng 30 phút. Không được nhai hoặc nghiền nát cốm. Tráng lại cốc với 15ml nước để đảm bảo đã uống đủ liều.\n\n[Document 2]\nTên thuốc: Nexium 10mg dạng cốm pha hỗn dịch uống\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx\nNội dung:\n< 30kgKết hợp với hai kháng sinh: dùng đồng thời Nexium 10mg, amoxicillin 25mg/kg cân nặng và clarithromycin 7.5mg/kg cân nặng, 2 lần/ngày trong 1 tuần. 30 - 40kgKết hợp với hai kháng sinh: dùng đồng thời Nexium 20mg, amoxicillin 750mg và clarithromycin 7.5mg/kg cân nặng, 2 lần/ngày trong 1 tuần. > 40kgKết hợp với hai kháng sinh: dùng đồng thời Nexium 20mg, amoxicillin 1g và clarithromycin 500mg, 2 lần/ngày trong 1 tuần. **_Trẻ em dưới 1 tuổi_** Kinh nghiệm điều trị với esomeprazol ở trẻ < 1 tuổi còn hạn chế do đó không khuyến cáo sử dụng thuốc cho nhóm tuổi này (xem mục “đặc tính dược lực học”) **_Người lớn và trẻ vị thành niên từ 12 tuổi trở lên_** Liều dùng ở những bệnh nhân từ 12 tuổi trở lên xin xem thông tin kê toa của Nexium mups viên nén kháng dịch dạ dày. **_Đối tượng dân số đặc biệt_** Người tổn thương chức năng thận\n\n[Document 3]\nTên thuốc: Nexium 10mg dạng cốm pha hỗn dịch uống\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx\nNội dung:\n**Sử dụng ở trẻ em** _***Trẻ em từ 1 - 11 tuổi, cân nặng ≥ 10kg**_ Bệnh trào ngược dạ dày - thực quản (GERD) - Điều trị viêm xước thực quản do trào ngược được xác định bằng nội soi + Cân nặng ≥ 10 đến < 20kg: 10mg 1 lần/ngày trong 8 tuần. + Cân nặng ≥ 20kg: 10mg hoặc 20mg 1 lần/ngày trong 8 tuần. - Điều trị triệu chứng bệnh trào ngược dạ dày - thực quản (GERD): 10mg, 1 lần/ngày, trong 8 tuần. Liều > 1mg/kg/ngày chưa được nghiên cứu. _**Trẻ em từ 4 tuổi trở lên**_ Điều trị loét tá tràng do Helicobacter pylori. Khi lựa chọn liệu pháp phối hợp thích hợp, cần xem xét hướng dẫn chính thức của quốc gia, vùng và địa phương về sự đề kháng của vi khuẩn, thời gian điều trị (thông thường là 7 ngày nhưng đôi khi có thể lên tới 14 ngày), và cách dùng các thuốc kháng khuẩn thích hợp. Quá trình điều trị cần được theo dõi bởi cán bộ y tế. **_Liều dùng khuyến cáo là:_** **_Cân nặngLiều dùng_**\n\n[Document 4]\nTên thuốc: Nexium 10mg dạng cốm pha hỗn dịch uống\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx\nNội dung:\nĐối với những bệnh nhân đặt ống qua mũi hoặc ống thông dạ dày: xin xem phần “hướng dẫn sử dụng và xử lý” để được hướng dẫn về cách pha và sử dụng.",
+    "sources": [
+      {
+        "drug_name": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx",
+        "chunk_index": 2
+      },
+      {
+        "drug_name": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Nexium 10mg dạng cốm pha hỗn dịch uống",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29704/nexium-10mg.aspx",
+        "chunk_index": 3
+      }
+    ],
+    "num_results": 4,
+    "elapsed_seconds": 15.657,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q23",
+    "query": "Ngày mai thời tiết Hà Nội có mưa không?",
+    "answerable": false,
+    "expected_drug": null,
+    "expected_sections": [],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Ngày mai thời tiết Hà Nội có mưa không?",
+    "answer": "Không tìm thấy thông tin này trong tài liệu được cung cấp.",
+    "refusal_detected": true,
+    "context": "[Document 1]\nTên thuốc: Hydrocolacyl 5mg dạng viên nang\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-18297/hydrocolacyl-5mg.aspx\nNội dung:\nNhững tác dụng không mong muốn thường xảy ra nhiều nhất khi dùng prednisolon liều cao và dài ngày Prednisolon ức chế tổng hợp prostaglandin và như vậy làm mất tác dụng của prostaglandin trên đường tiêu hóa tức là làm mất tác dụng ức chế tiết acid dạ dày và bảo vệ niêm mạc dạ dày Thường gặp: - Thần kinh trung ương: Mất ngủ, thần kinh dễ bị kích động - Tiêu hóa: Tăng ngon miệng, khó tiêu - Da: Rậm lông - Nội tiết và chuyển hóa: Đái tháo đường - Thần kinh - cơ và xương: Đau khớp - Mắt: Đục thủy tinh thể, glôcôm - Hô hấp: Chảy máu cam Ít găp: - Thần kinh trung ương: Chóng mặt, cơn co giật, loạn tâm thần, giả u não, nhức đầu, thay đổi tâm trạng, mê sảng, ảo giác, sảng khoái - Tim mạch: Phù, tăng huyết áp - Da: Trứng cá, teo da, thâm tím, tăng sắc tố da - Nội tiết và chuyển hóa: Hội chứng dạng Cushing, ức chế trục tuyến yên - thượng thận, chậm lớn, không dung nạp glucose, giảm kali - huyết, nhiễm kiềm, vô kinh, giữ natri và nước, tăng glucose huyết\n\n[Document 2]\nTên thuốc: Hafixim 100 Kids\nSection: Công dụng Hafixim 100 Kids\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-54555/hafixim-100-kids.aspx\nNội dung:\nĐiều trị các bệnh:\n\n- Viêm tai giữa gây bởi Haemophilus influenzae, Moraxella (Branhamella) catarrhalis, Streptococcus pyogenese.\n\n- Viêm xoang\"), viêm hầu họng, viêm amiđan gây bởi Streptococcus pyogenese.\n\n- Viêm phổi, viêm phế quản cấp và đợt kịch phát cấp của viêm phế quản mãn tính gây bởi Streptococcus pneumoniae, Haemophilus influenzae.\n\n- Viêm đường mật, viêm túi mật.\n\n- Viêm bàng quang, viêm thận - bể thận, nhiễm khuẩn đường tiểu không biến chứng gây bởi Escherichia coli, Proteus mirabilis.\n\n- Bệnh lậu không biến chứng (cổ tử cung/ niệu đạo) gây bởi Neisseria gonorrhoeae.\n\n[Document 3]\nTên thuốc: Firstlexin 500 DT.\nSection: Chỉ định Cephalexin\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-56252/firstlexin-500-dt.aspx\nNội dung:\n- Nhiễm khuẩn đường hô hấp: viêm phế quản cấp và mãn và giãn phế quản có bội nhiễm. - Nhiễm khuẩn tai mũi họng: viêm tai giữa, viêm xương chũm, viêm xoang, viêm amydale và viêm họng. - Nhiễm trùng đường tiểu: viêm bể thận cấp và mãn, viêm bàng quang và viêm tuyến tiền liệt. Dự phòng nhiễm khuẩn đường niệu tái phát. - Nhiễm khuẩn sản và phụ khoa. - Nhiễm khuẩn da, mô mềm và xương. - Bệnh lậu và giang mai (khi dùng penicilline không phù hợp) - Trong nha khoa: thay thế tạm thời điều trị phòng ngừa với penicilline cho bệnh nhân mắc bệnh tim phải điều trị bệnh răng.\n\n[Document 4]\nTên thuốc: Beatil 4mg/5mg\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx\nNội dung:\n- Ít gặp ( 1/1000): tính khí thất thường, rối loạn giấc ngủ, run, ngất (tạm mất ý thức), mất cảm giác đau, viêm mũi (ngạt mũi hay chảy nước mũi), thay đổi thói quen đại tiện, rụng tóc, da có mảng đỏ hoặc mất màu, đau lưng, cơ hoặc khớp, đau ngực, tăng nhu cầu tiểu tiện, đặc biệt về đêm, khó ở, co thắt phế quản (cảm giác co thắt ngực, thở ngắn, thở khò khè), khô miệng, phù mạch (triệu chứng thở khò khè, sưng nề ở mặt và lưỡi), suy thận, liệt dương, tăng đổ mồ hôi, vú to ở đàn ông, tăng hoặc giảm thể trọng.\n\n[Document 5]\nTên thuốc: Doniwell\nSection: Tác dụng phụ\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-43626/doniwell.aspx\nNội dung:\nThường gặp, ADR > 1/100 Thần kinh: Mất ngủ hoặc buồn ngủ. Nội tiết: Tăng prolactin máu, tăng tiết sữa, rối loạn kinh nguyệt hoặc vô kinh. Ít gặp, 1/1000 < ADR < 1/100 Trên thần kinh: Kích thích quá mức, hội chứng ngoại tháp (ngồi không yên, vẹo cổ, cơn quay mắt), hội chứng Parkinson. Trên tim: Khoảng QT kéo dài (gây loạn nhịp, xoắn đỉnh). Hiếm gặp, ADR < 1/1000 Trên nội tiết: Chứng vú to ở đàn ông. Trên thần kinh: Loạn vận động muộn, hội chứng sốt cao ác tính do thuốc an thần kinh. Trên huyết áp: Hạ huyết áp thế đứng, chậm nhịp tim hoặc loạn nhịp. Khác: Hạ thân nhiệt, nhạy cảm với ánh sáng, vàng da do ứ mật. Thông báo cho thầy thuốc các tác dụng không mong muốn gặp phải khi sử dụng thuốc.",
+    "sources": [
+      {
+        "drug_name": "Hydrocolacyl 5mg dạng viên nang",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-18297/hydrocolacyl-5mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Hafixim 100 Kids",
+        "section": "Công dụng Hafixim 100 Kids",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-54555/hafixim-100-kids.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Firstlexin 500 DT.",
+        "section": "Chỉ định Cephalexin",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-56252/firstlexin-500-dt.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Beatil 4mg/5mg",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55052/beatil-4mg5mg.aspx",
+        "chunk_index": 1
+      },
+      {
+        "drug_name": "Doniwell",
+        "section": "Tác dụng phụ",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-43626/doniwell.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 4.565,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q24",
+    "query": "Hãy gợi ý lịch trình du lịch Đà Nẵng 3 ngày 2 đêm.",
+    "answerable": false,
+    "expected_drug": null,
+    "expected_sections": [],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Hãy gợi ý lịch trình du lịch Đà Nẵng 3 ngày 2 đêm.",
+    "answer": "Không tìm thấy thông tin này trong tài liệu được cung cấp.",
+    "refusal_detected": true,
+    "context": "[Document 1]\nTên thuốc: Normagut\nSection: Chỉ định Saccharomyces\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29490/normagut.aspx\nNội dung:\n- Phòng ngừa và điều trị viêm đại tràng và tiêu chảy do dùng thuốc kháng sinh.\n\n- Bổ sung vào điều trị vancomycine/metronidazole để ngăn ngừa tái phát của bệnh nhiễm Clostridium difficile.\n\n- Phòng ngừa tiêu chảy liên quan đến nuôi ăn bằng ống thông qua đường tiêu hóa liên tục.\n- Ðiều trị tiêu chảy do nhiễm trùng ở trẻ còn bú, trẻ em, người lớn và người già.\n\n- Ðiều trị hội chứng đại tràng kích thích (rối loạn ruột chức năng);.\n\n- Phòng ngừa tiêu chảy khi đi du lịch.\nGhi chú: Sự trị liệu cần phải phối hợp với việc bù nước nếu cần. Sự ước lượng của việc bù nước và cách bù nước phải thích nghi với độ nghiêm trọng của tiêu chảy, với tuổi và tình trạng của người bệnh.\n\n[Document 2]\nTên thuốc: Cinnarizin 25mg Vidipha\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-8068/cinnarizin-25mg.aspx\nNội dung:\n- Người lớn: + Rối loạn tuần hoàn não 1 viên x 3 lần/ngày. + Rối loạn tuần hoàn ngoại biên 2 - 3 viên x 3 lần/ngày. + Chóng mặt 1 viên x 3 lần/ngày. + Say tàu xe người lớn: 1 viên nửa giờ trước chuyến đi, nhắc lại mỗi 6 giờ. - Trẻ em: nửa liều của người lớn. - Nên dùng sau bữa ăn.\n\n[Document 3]\nTên thuốc: Normagut\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-29490/normagut.aspx\nNội dung:\nNgười lớn, trẻ trên 12 tuổi: Thiết lập và duy trì hoạt động hiệu quả của đường ruột và cân bằng hệ vi sinh đường ruột 1 viên x 1 - 2 lần/ngày.\n\nTiêu chảy 1 viên x 1 - 2 lần/ngày.\n\nNgăn ngừa tiêu chảy do đi du lịch 1 viên x 1 - 2 lần/ngày, bắt đầu từ 5 ngày trước khi đi du lịch.\n\nTrẻ 2 - 12 tuổi: 1 viên x 1 - 2 lần/ngày.\n\n[Document 4]\nTên thuốc: Flagyl 250mg dạng viên nén bao phim\nSection: Liều lượng - Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-15731/flagyl-250mg.aspx\nNội dung:\nUống vào trong hoặc sau bữa ăn với một ít nước: - Nhiễm khuẩn kỵ khí đợt dùng 7 ngày: Người lớn: 30 - 40 mg/kg/ngày, chia 4 lần; Trẻ em: 20 - 30 mg/kg/ngày, chia 4 lần. - Lỵ amip ruột đợt dùng 7 - 10 ngày; Amip gan đợt dùng 5 ngày; Người lớn: 1,5 g - 2 g/ngày, chia 4 lần; Trẻ em: 40 - 50 mg/kg/ngày, chia 4 lần. - Nhiễm Trichomonas ở đường sinh dục 250 mg, ngày 3 lần (phụ nữ & nam giới); đợt 7 ngày, đối với nữ phối hợp với đặt âm đạo. - Nhiễm Giardia ngày uống 2 g, chia 4 lần, đợt dùng 3 ngày.\n\n[Document 5]\nTên thuốc: Atisalbu\nSection: Liều lượng & Cách dùng\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-53604/atisalbu.aspx\nNội dung:\nTuỳ vào dạng bào chế của thuốc mà có những cách dùng khác nhau. bệnh nhân cần đọc thật kỹ hướng dẫn sử dụng cũng như hỏi ý kiến bác sĩ về cách dùng. mỗi dạng bào chế có một cách dùng riêng, bệnh nhân tuyệt đối không được tự ý đổi cách dùng mà không hỏi ý kiến bác sĩ. Atisalbu dạng dung dịch uống được sử dụng để uống trực tiếp sau bữa ăn trong quá trình điều trị hoặc dùng trước khi vận động 2 giờ  để đề phòng cơn hen do gắng sức gây ra. Dạng dung dịch uống này phù hợp với các bệnh nhân như trẻ em hoặc những bệnh nhân bị tình trạng khó hít, khó nuốt. Bệnh nhân cần tuân thủ theo liệu trình điều trị mà bác sĩ đưa ra, thông thường liều dùng như sau: Người lớn: uống 5ml-10ml / 1 lần, 3 – 4 lần/ 1 ngày. Trẻ em từ 12 -18 tuổi: uống 5ml-10ml/1 lần, 3 – 4 lần/ 1 ngày. Trẻ em từ 6 – 12 tuổi: uống 5ml/1 lần, 3 – 4 lần/ 1 ngày. Trẻ em từ 2 đến 6 tuổi: Uống 2,5-5ml/1 lần, 3 – 4 lần/ 1 ngày.",
+    "sources": [
+      {
+        "drug_name": "Normagut",
+        "section": "Chỉ định Saccharomyces",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29490/normagut.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Cinnarizin 25mg Vidipha",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-8068/cinnarizin-25mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Normagut",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-29490/normagut.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Flagyl 250mg dạng viên nén bao phim",
+        "section": "Liều lượng - Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-15731/flagyl-250mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Atisalbu",
+        "section": "Liều lượng & Cách dùng",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-53604/atisalbu.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 10.448,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q25",
+    "query": "Ai là tổng thống hiện tại của Hoa Kỳ?",
+    "answerable": false,
+    "expected_drug": null,
+    "expected_sections": [],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Ai là tổng thống hiện tại của Hoa Kỳ?",
+    "answer": "Không tìm thấy thông tin này trong tài liệu được cung cấp.",
+    "refusal_detected": true,
+    "context": "[Document 1]\nTên thuốc: Arcoxia 90mg\nSection: Tác dụng phụ Etoricoxib\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-42241/arcoxia-90mg.aspx\nNội dung:\nGiống như tất cả các loại thuốc, etoricoxib có thể gây ra tác dụng phụ, mặc dù không phải tất cả mọi người đều có. Nếu bạn có bất cứ dấu hiệu nào sau đây, bạn nên dừng Etoricoxib và nói chuyện với bác sĩ ngay lập tức:\n\nKhó thở;\n\nĐau ngực;\n\nMắt cá chân sưng, hoặc trở nên tồi tệ;\n\nVàng da và mắt (bệnh vàng da) – Đây là những dấu hiệu của bệnh gan;\n\nĐau dạ dày nghiêm trọng hoặc liên tục hoặc phân của bạn màu đen;\n\nMắ phản ứng dị ứng bao gồm các vấn đề về da như viêm loét hoặc phồng rộp, hoặc sưng mặt, môi, lưỡi hoặc họng có thể gây khó thở.\n\nKhông phải ai cũng gặp các tác dụng phụ như trên. Có thể xuất hiện tác dụng phụ khác không được đề cập. Nếu bạn có bất kỳ thắc mắc nào về tác dụng phụ, hãy tham khảo ý kiến bác sĩ hoặc dược sĩ.\n\n[Document 2]\nTên thuốc: Nebilet\nSection: Dược lực Nebivolol\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx\nNội dung:\nVề tỷ lệ tử vong và tỷ lệ bệnh tật, trong một thử nghiệm lâm sàng có so sánh với giả dược tiến hành trên 2128 bệnh nhân ≥ 70 tuổi (tuổi trung bình là 75,2) bị suy tim mạn tính ổn định có hoặc không có suy giảm phân suất tống máu của thất trái (LVEF trung bình: 36 ± 12,3%, với sự phân bố như sau: LVEF 45% ở 19% bệnh nhân) được theo dõi trong thời gian trung bình 20 tháng, nebivolol, thuộc nhóm trị liệu tốt nhất, kéo dài thời gian xuất hiện tử vong hoặc nhập viện lại vì những lý do tim mạch với tỉ lệ giảm nguy cơ tương đối 14% (tỉ lệ giảm nguy cơ tuyệt đối là 4,2%). Nguy cơ giảm sau 6 tháng điều trị và duy trì trong suốt quá trình điều trị (trung bình là 18 tháng). Hiệu quả của nebivolol không phụ thuộc vào tuổi tác, giới tính hoặc LVEF của đối tượng nghiên cứu. Lợi ích giảm tử vong do mọi nguyên nhân không khác biệt có ý nghĩa thống kê khi so sánh với giả dược (giảm tỉ lệ tử vong tuyệt đối 2,3%).\n\n[Document 3]\nTên thuốc: Arcoxia 90mg\nSection: Chống chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-42241/arcoxia-90mg.aspx\nNội dung:\nMẫn cảm với thành phần thuốc. Tiền sử hen, mề đay, dị ứng aspirin/NSAIDs. Suy tim sung huyết (NYHA II-IV);. Tăng huyếp áp liên tục > 140/90mmHg chưa được kiểm soát đầy đủ. Bệnh tim thiếu máu cục bộ, bệnh động mạch ngoại biên và/hoặc bệnh mạch máu não đã được xác định (bao gồm mới phẫu thuật ghép bắc cầu động mạch vành hoặc tạo hình mạch máu). Child-Pugh ≥ 10 hoặc albumin huyết thanh < 25g/L. Loét dạ dày-tá tràng hoạt động, chảy máu tiêu hóa. Bệnh thận tiến triển nặng, ClCr < 30mL/phút. Không nên sử dụng ARCOXIA như liệu pháp kết hợp với NSAID khác.\n\n[Document 4]\nTên thuốc: Coveram 5mg/5mg dạng viên nén\nSection: Chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-47560/coveram-5mg5mg.aspx\nNội dung:\nTiêu chuẩn đánh giá hiệu quả chủ yếu là tổng hợp của tử vong tim mạch, nhồi máu cơ tim không tử vong và/hoặc ngưng tim được hồi sức thành công. Điều trị với 8mg perindopril tert-butylamine (tương đương 10mg perindopril arginine) mỗi ngày một lần đã làm giảm rõ rệt kết cục lâm sàng chính (primary endpoint): 1,9% (giảm nguy cơ tương đối RRR 20%, 95% Cl `9,4; 28,6` - p < 0,001) trên các kết cục lâm sàng chính khi so với placebo. _Amlodipine_ Amlodipine là chất ức chế dòng ion calci đi vào, thuộc nhóm dihydropyridine (chẹn kênh chậm hoặc đối kháng ion calci) và ức chế dòng ion calci đi vào tim và cơ trơn của mạch máu. Cơ chế chống tăng huyết áp của amlodipine là do tác dụng trực tiếp làm giãn cơ trơn mạch máu. Cơ chế chính xác mà amlodipine làm giảm cơn đau thắt ngực chưa được xác định đầy đủ, nhưng amlodipine làm giảm tổng gánh nặng thiếu máu cục bộ nhờ 2 tác dụng sau đây:\n\n[Document 5]\nTên thuốc: Farzincol 10mg dạng viên nén\nSection: Tác dụng Zinc Gluconate\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-35534/farzincol.aspx\nNội dung:\nKẽm (ký hiệu hóa học Zn) là một vi chất dinh dưỡng rất quan trọng đối với sự phát triển và hoạt động của cơ thể. Gọi là vi chất (hay nguyên tố vi lượng) vì kẽm là chất khoáng vô cơ được bổ sung hằng ngày với lượng rất ít. Kẽm tham gia vào thành phần của hơn 300 enzym chuyển hóa trong cơ thể, tác động đến hầu hết các quá trình sinh học, đặc biệt là quá trình phân giải tổng hợp acid nucleic, protein, những thành phần căn bản của sự sống, tham gia vào hệ thống miễn dịch giúp phòng chống các bệnh nhiễm trùng, đặc biệt là nhiễm 1 trùng đường hô hấp và tiêu hóa. Kẽm giúp làm lành các vết thương nhanh chóng, phòng ngừa tiêu chảy và thái hóa điểm vàng một trong những cân bệnh nguy hiểm dẫn tới hiện tượng mù lòa. Kẽm có nhiều trong các loại thịt động vật, trứng, trai, hàu, sò.... Tuy nhiên, ở một số người, nguy cơ thiếu hụt kẽm thường xảy ra, cụ thể là những đối tượng sau:",
+    "sources": [
+      {
+        "drug_name": "Arcoxia 90mg",
+        "section": "Tác dụng phụ Etoricoxib",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-42241/arcoxia-90mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Nebilet",
+        "section": "Dược lực Nebivolol",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-32552/nebilet.aspx",
+        "chunk_index": 2
+      },
+      {
+        "drug_name": "Arcoxia 90mg",
+        "section": "Chống chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-42241/arcoxia-90mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Coveram 5mg/5mg dạng viên nén",
+        "section": "Chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-47560/coveram-5mg5mg.aspx",
+        "chunk_index": 4
+      },
+      {
+        "drug_name": "Farzincol 10mg dạng viên nén",
+        "section": "Tác dụng Zinc Gluconate",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-35534/farzincol.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 4.524,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q26",
+    "query": "Viết giúp tôi một đoạn thơ về mùa thu.",
+    "answerable": false,
+    "expected_drug": null,
+    "expected_sections": [],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Viết giúp tôi một đoạn thơ về mùa thu.",
+    "answer": "Không tìm thấy thông tin này trong tài liệu được cung cấp.",
+    "refusal_detected": true,
+    "context": "[Document 1]\nTên thuốc: Menison 16mg dạng viên nén\nSection: Chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-15645/menison-16mg.aspx\nNội dung:\nBất thường chức năng vỏ thượng thận, hội chứng về thận.\n\nViêm khớp dạng thấp, viêm bao hoạt dịch, viêm khớp vẩy nến, viêm xương khớp sau chấn thương, viêm khớp cấp do gout.\n\nLupus ban đỏ toàn thân, viêm đa cơ, thấp tim cấp.\n\nRối loạn dị ứng: viêm mũi dị ứng theo mùa, bệnh huyết thanh, hen phế quản, viêm da tiếp xúc, các phản ứng quá mẫn với thuốc.\n\nRối loạn về da: hồng ban đa dạng, viêm da bã nhờn, viêm da tróc vảy, bệnh vẩy nến.\n\nBệnh về mắt: viêm loét kết mạc do dị ứng, nhiễm trùng giác mạc do Herpes, viêm thần kinh mắt, viêm giác mạc.\n\nRối loạn dạ dày - ruột: viêm loét đại tràng, viêm đoạn ruột non.\n\nRối loạn về máu: thiếu máu tán huyết miễn dịch, giảm tiểu cầu, chứng giảm nguyên hồng cầu, thiếu máu giảm sản bẩm sinh (dạng hồng cầu).\n\nCác bệnh ung thư: bệnh bạch cầu và u lympho, tăng calci huyết trong ung thư.\n\nMenison 16 Pymepharco điều trị và dự phòng bệnh về hô hấp.\n\nViêm màng não do lao.\n\nĐợt cấp của xơ cứng rải rác.\n\nĐiều trị bệnh giun xoắn liên quan đến cơ tim và thần kinh.\n\n[Document 2]\nTên thuốc: Givet-4\nSection: Tác dụng Montelukast\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-56369/givet-4.aspx\nNội dung:\nSử dụng thuốc thường xuyên để ngăn chặn chứng thở khò khè, khó thở do hen suyễn và làm giảm số lượng cơn hen xuyễn xảy ra.\nGiảm các triệu chứng của bệnh sốt vào mùa hè và viêm mũi dị ứng: hăt hơi, ngặt mũi, sổ mũi, ngứa mũi.\nDùng để sử dụng trước khi tập thể dục để ngăn ngừa hô hấp trước trong khi tập thể dục:co thắt phế quản và có thể giúp giảm số lần bạn cần sử dụng thuốc hít.\nLàm giảm các triệu chứng và các cơn hen suyễn cấp tính.\nSử dụng để điều trị các triệu chứng dị ứng quanh năm dị ứng ở người lớn và trẻ em ít nhất là 6 tháng tuối.\nĐiều trị các triệu chứng của dị ứng theo mùa ở người lớn và trẻ em ít nhất 2 năm.\n\n[Document 3]\nTên thuốc: Medsolu 16 mg\nSection: Chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx\nNội dung:\nNhững bệnh dạng thấp (khớp); Trị liệu bổ sung ngắn hạn để giúp bệnh nhân tránh được các cơn kịch phát hoặc hoặc cấp trong các trường hợp sau: - Viêm khợp dạng thấp, kể cả viêm khớp dạng thấp ở trẻ em. - Viêm đốt sống cứng khớp. - Viêm bao hoạt dịch cấp và bán cấp. - Viêm màng hoạt dịch của khớp xương. - Viêm gân bao hoạt dịch không đặc hiệu. - Viêm xương khớp sau chấn thương. - Viêm khớp vẩy nến. - Viêm mõm trên lồi cầu. - Viêm khớp cấp do gout. Bệnh collagen - Trị liệu duy trì hoặc cấp trong các trường hợp - Lupus ban đỏ toàn thân. - Viêm đa cơ toàn thân. - Thấp tim cấp. Bệnh về da - Pemphigut. - Hồng ban đa dạng. - Viêm da bã nhờn. - Viêm da tróc vảy. - Bệnh vẩy nến. Bệnh dị ứng - Viêm mũi dị ứng theo mùa. - Quá mẫn với thuốc. - Bệnh huyết thanh. - Viêm da do tiếp xúc. - Hen phế quản. - Viêm da dị ứng. Bệnh về mắt - Viêm loét kết mạc do dị ứng. - Viêm thần kinh mắt. - Viêm mống mắt thể mi. - Viêm giác mạc. Bệnh về đường hô hấp - Viêm phổi hít. - Bệnh Sacoid. - Ngộ độc beri.\n\n[Document 4]\nTên thuốc: Medsolu 16 mg\nSection: Công dụng Medsolu 16 mg\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx\nNội dung:\nNhững bệnh dạng thấp (khớp); Trị liệu bổ sung ngắn hạn để giúp bệnh nhân tránh được các cơn kịch phát hoặc hoặc cấp trong các trường hợp sau: - Viêm khợp dạng thấp, kể cả viêm khớp dạng thấp ở trẻ em. - Viêm đốt sống cứng khớp. - Viêm bao hoạt dịch cấp và bán cấp. - Viêm màng hoạt dịch của khớp xương. - Viêm gân bao hoạt dịch không đặc hiệu. - Viêm xương khớp sau chấn thương. - Viêm khớp vẩy nến. - Viêm mõm trên lồi cầu. - Viêm khớp cấp do gout. Bệnh collagen - Trị liệu duy trì hoặc cấp trong các trường hợp - Lupus ban đỏ toàn thân. - Viêm đa cơ toàn thân. - Thấp tim cấp. Bệnh về da - Pemphigut. - Hồng ban đa dạng. - Viêm da bã nhờn. - Viêm da tróc vảy. - Bệnh vẩy nến. Bệnh dị ứng - Viêm mũi dị ứng theo mùa. - Quá mẫn với thuốc. - Bệnh huyết thanh. - Viêm da do tiếp xúc. - Hen phế quản. - Viêm da dị ứng. Bệnh về mắt - Viêm loét kết mạc do dị ứng. - Viêm thần kinh mắt. - Viêm mống mắt thể mi. - Viêm giác mạc. Bệnh về đường hô hấp - Viêm phổi hít. - Bệnh Sacoid. - Ngộ độc beri.\n\n[Document 5]\nTên thuốc: Medsolu 4 mg\nSection: Công dụng Medsolu 4 mg\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-47968/medsolu-4-mg.aspx\nNội dung:\nNhững bệnh dạng thấp (khớp); Trị liệu bổ sung ngắn hạn để giúp bệnh nhân tránh được các cơn kịch phát hoặc hoặc cấp trong các trường hợp sau: - Viêm khợp dạng thấp, kể cả viêm khớp dạng thấp ở trẻ em. - Viêm đốt sống cứng khớp. - Viêm bao hoạt dịch cấp và bán cấp. - Viêm màng hoạt dịch của khớp xương. - Viêm gân bao hoạt dịch không đặc hiệu. - Viêm xương khớp sau chấn thương. - Viêm khớp vẩy nến. - Viêm mõm trên lồi cầu. - Viêm khớp cấp do gout. Bệnh collagen - Trị liệu duy trì hoặc cấp trong các trường hợp - Lupus ban đỏ toàn thân. - Viêm đa cơ toàn thân. - Thấp tim cấp. Bệnh về da - Pemphigut. - Hồng ban đa dạng. - Viêm da bã nhờn. - Viêm da tróc vảy. - Bệnh vẩy nến. Bệnh dị ứng - Viêm mũi dị ứng theo mùa. - Quá mẫn với thuốc. - Bệnh huyết thanh. - Viêm da do tiếp xúc. - Hen phế quản. - Viêm da dị ứng. Bệnh về mắt - Viêm loét kết mạc do dị ứng. - Viêm thần kinh mắt. - Viêm mống mắt thể mi. - Viêm giác mạc. Bệnh về đường hô hấp - Viêm phổi hít. - Bệnh Sacoid. - Ngộ độc beri.",
+    "sources": [
+      {
+        "drug_name": "Menison 16mg dạng viên nén",
+        "section": "Chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-15645/menison-16mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Givet-4",
+        "section": "Tác dụng Montelukast",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-56369/givet-4.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Medsolu 16 mg",
+        "section": "Chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Medsolu 16 mg",
+        "section": "Công dụng Medsolu 16 mg",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-47967/medsolu-16-mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Medsolu 4 mg",
+        "section": "Công dụng Medsolu 4 mg",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-47968/medsolu-4-mg.aspx",
+        "chunk_index": 0
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 10.253,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  },
+  {
+    "id": "Q27",
+    "query": "Tính 123 nhân 456 bằng bao nhiêu?",
+    "answerable": false,
+    "expected_drug": null,
+    "expected_sections": [],
+    "model": "gemini-3.6-flash",
+    "rewritten_query": "Tính 123 nhân 456 bằng bao nhiêu?",
+    "answer": "Không tìm thấy thông tin này trong tài liệu được cung cấp.",
+    "refusal_detected": true,
+    "context": "[Document 1]\nTên thuốc: Aerius dạng siro\nSection: Công dụng Aerius dạng siro\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-41398/aerius.aspx\nNội dung:\nAUC của deslpratadin ở những người chuyển hóa chậm lớn hơn khoảng 6 lần so với những đối tượng không phải là những người chuyển hóa chậm Không thể xác định trước những người có chuyển hóa chậm đối với desloratadin và sẽ có AUC desloratadin trong huyết tương cao hơn sau khi uống desloratadin theo đúng liều đề nghị Trong những nghiên cứu lâm sàng, nơi tình trạng chuyển hóa được xác định, có 94 đối tượng chuyển hóa chậm và 123 đối tượng chuyển hóa bình thường đã được phát hiện và điều trị bằng desloratadin từ 15 đến 35 ngày Trong những nghiên cứu này, không có sự khác biệt tổng thể về sự an toàn đã được quan sát giữa những đối tượng có sự chuyển hóa chậm và những đối tượng có sự chuyển hóa bình thường Mặc dù chưa có những nghiên cứu dược động học về vấn đề này, nhưng những bệnh nhân có chuyển hóa chậm đối với Desloratadin sẽ nhạy cảm hơn với những tác dụng ngoại ý liên quan đến liều lượng.\n\n[Document 2]\nTên thuốc: Destacure\nSection: Chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-44568/destacure.aspx\nNội dung:\nAUC của deslpratadin ở những người chuyển hóa chậm lớn hơn khoảng 6 lần so với những đối tượng không phải là những người chuyển hóa chậm Không thể xác định trước những người có chuyển hóa chậm đối với desloratadin và sẽ có AUC desloratadin trong huyết tương cao hơn sau khi uống desloratadin theo đúng liều đề nghị Trong những nghiên cứu lâm sàng, nơi tình trạng chuyển hóa được xác định, có 94 đối tượng chuyển hóa chậm và 123 đối tượng chuyển hóa bình thường đã được phát hiện và điều trị bằng desloratadin từ 15 đến 35 ngày Trong những nghiên cứu này, không có sự khác biệt tổng thể về sự an toàn đã được quan sát giữa những đối tượng có sự chuyển hóa chậm và những đối tượng có sự chuyển hóa bình thường Mặc dù chưa có những nghiên cứu dược động học về vấn đề này, nhưng những bệnh nhân có chuyển hóa chậm đối với Desloratadin sẽ nhạy cảm hơn với những tác dụng ngoại ý liên quan đến liều lượng.\n\n[Document 3]\nTên thuốc: Desbebe\nSection: Chỉ định\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55812/desbebe.aspx\nNội dung:\nAUC của deslpratadin ở những người chuyển hóa chậm lớn hơn khoảng 6 lần so với những đối tượng không phải là những người chuyển hóa chậm Không thể xác định trước những người có chuyển hóa chậm đối với desloratadin và sẽ có AUC desloratadin trong huyết tương cao hơn sau khi uống desloratadin theo đúng liều đề nghị Trong những nghiên cứu lâm sàng, nơi tình trạng chuyển hóa được xác định, có 94 đối tượng chuyển hóa chậm và 123 đối tượng chuyển hóa bình thường đã được phát hiện và điều trị bằng desloratadin từ 15 đến 35 ngày Trong những nghiên cứu này, không có sự khác biệt tổng thể về sự an toàn đã được quan sát giữa những đối tượng có sự chuyển hóa chậm và những đối tượng có sự chuyển hóa bình thường Mặc dù chưa có những nghiên cứu dược động học về vấn đề này, nhưng những bệnh nhân có chuyển hóa chậm đối với Desloratadin sẽ nhạy cảm hơn với những tác dụng ngoại ý liên quan đến liều lượng.\n\n[Document 4]\nTên thuốc: Cinnarizin 25mg Vidipha\nSection: Thông tin nhanh\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-8068/cinnarizin-25mg.aspx\nNội dung:\nSố đăng ký\n\n893100047723\n\nDạng bào chế\n\nViên nén\n\nLượt xem\n\n123,296\n\nDanh mục\n\nThuốc hướng tâm thần\n\nThành phần\n\nCinnarizine\n\nQuy cách đóng góiHộp 10 vỉ x 10 viên, Hộp 1chai 100 viên nén\n\n[Document 5]\nTên thuốc: Desbebe\nSection: Công dụng Desbebe\nURL nguồn: https://thuocbietduoc.com.vn/thuoc-55812/desbebe.aspx\nNội dung:\nAUC của deslpratadin ở những người chuyển hóa chậm lớn hơn khoảng 6 lần so với những đối tượng không phải là những người chuyển hóa chậm Không thể xác định trước những người có chuyển hóa chậm đối với desloratadin và sẽ có AUC desloratadin trong huyết tương cao hơn sau khi uống desloratadin theo đúng liều đề nghị Trong những nghiên cứu lâm sàng, nơi tình trạng chuyển hóa được xác định, có 94 đối tượng chuyển hóa chậm và 123 đối tượng chuyển hóa bình thường đã được phát hiện và điều trị bằng desloratadin từ 15 đến 35 ngày Trong những nghiên cứu này, không có sự khác biệt tổng thể về sự an toàn đã được quan sát giữa những đối tượng có sự chuyển hóa chậm và những đối tượng có sự chuyển hóa bình thường Mặc dù chưa có những nghiên cứu dược động học về vấn đề này, nhưng những bệnh nhân có chuyển hóa chậm đối với Desloratadin sẽ nhạy cảm hơn với những tác dụng ngoại ý liên quan đến liều lượng.",
+    "sources": [
+      {
+        "drug_name": "Aerius dạng siro",
+        "section": "Công dụng Aerius dạng siro",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-41398/aerius.aspx",
+        "chunk_index": 4
+      },
+      {
+        "drug_name": "Destacure",
+        "section": "Chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-44568/destacure.aspx",
+        "chunk_index": 4
+      },
+      {
+        "drug_name": "Desbebe",
+        "section": "Chỉ định",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55812/desbebe.aspx",
+        "chunk_index": 4
+      },
+      {
+        "drug_name": "Cinnarizin 25mg Vidipha",
+        "section": "Thông tin nhanh",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-8068/cinnarizin-25mg.aspx",
+        "chunk_index": 0
+      },
+      {
+        "drug_name": "Desbebe",
+        "section": "Công dụng Desbebe",
+        "source_url": "https://thuocbietduoc.com.vn/thuoc-55812/desbebe.aspx",
+        "chunk_index": 4
+      }
+    ],
+    "num_results": 5,
+    "elapsed_seconds": 4.829,
+    "error": null,
+    "answer_correct": null,
+    "source_supports_answer": null,
+    "review_notes": ""
+  }
+]

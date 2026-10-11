@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.git/
+.env
+
+data/
+evaluation/
+tests/
+file_inventory.csv
+
+.DS_Store

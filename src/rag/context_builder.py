@@ -1,4 +1,3 @@
-
 class ContextBuilder:
     def build(self, results: list[dict]) -> str:
         context_parts = []
@@ -12,7 +11,6 @@ class ContextBuilder:
 
             text = result["text"].strip()
 
-            # Loại bỏ metadata trùng ở đầu chunk nếu có.
             lines = text.splitlines()
 
             while lines and not lines[0].strip():
@@ -31,10 +29,10 @@ class ContextBuilder:
 
             context = (
                 f"[Document {index}]\n"
-                f"Thuốc: {drug_name}\n"
-                f"Phần: {section}\n\n"
-                f"{text}\n\n"
-                f"Source: {source_url}"
+                f"Tên thuốc: {drug_name}\n"
+                f"Section: {section}\n"
+                f"URL nguồn: {source_url}\n"
+                f"Nội dung:\n{text}"
             )
 
             context_parts.append(context)
